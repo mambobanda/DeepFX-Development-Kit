@@ -1,0 +1,3262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files\UI Base">
+      <UniqueIdentifier>{e4cfd203-152b-4e57-9145-417ad6467e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Globals">
+      <UniqueIdentifier>{bf8e8ceb-567b-4993-91ca-7fddb802995d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI Base">
+      <UniqueIdentifier>{e11d9d43-a902-472d-8470-c4966d07ff24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Global">
+      <UniqueIdentifier>{548f0f1c-64d4-4c1d-9cbb-5f82fc7e43f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Viewport">
+      <UniqueIdentifier>{fb378218-a44d-44dd-8226-a33b8907f103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{62cacd62-dce6-42de-8610-df20ec4d57fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene View">
+      <UniqueIdentifier>{68598ed8-2827-4133-a10a-5909855885bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Viewport">
+      <UniqueIdentifier>{3345d456-857f-49fa-8e61-1b261ca80e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Grid">
+      <UniqueIdentifier>{7d1fac7b-0cd0-4f05-b156-233268f96054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Grid">
+      <UniqueIdentifier>{8ba075e5-fa09-41cf-b942-488e92069436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene View">
+      <UniqueIdentifier>{d9b50c53-983a-48eb-837f-f716b0c2af58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shortcuts">
+      <UniqueIdentifier>{053e850c-0887-47d3-b6da-0e494b0114f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main Menu">
+      <UniqueIdentifier>{ce14c204-4344-4ad1-8829-d6903d12c8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Menu">
+      <UniqueIdentifier>{10511de8-1ec7-4b67-b56f-53f6a2513034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shortcuts">
+      <UniqueIdentifier>{9eabdda4-2ef2-48ac-a21a-8cf8c5913c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{70d178c9-a989-49d1-9162-f1da279e4747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{5424a261-d29f-464c-a90e-07b32126820f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bootstrap">
+      <UniqueIdentifier>{43aba701-97cc-4ec5-ac72-46276a85c2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bootstrap">
+      <UniqueIdentifier>{9d477412-9c69-428e-bd42-cfa0386ff78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{b696581a-6177-4ac2-9441-8a6bebec4d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{908fe2ff-c0b3-49ec-8690-684d9e26e83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{4ad9a4e7-5dfa-4a03-a371-40e39635dfa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{aa14322f-e009-40cb-be1a-0bc7c3d04ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DeepSg">
+      <UniqueIdentifier>{90e68d2c-638e-40c7-99fa-45ac2336cf20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DeepSg">
+      <UniqueIdentifier>{555fcf89-8874-4e70-a6e0-dd322cc80922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene Selection">
+      <UniqueIdentifier>{e72d53c2-f355-4c41-af2b-ac7502cd2697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene Selection">
+      <UniqueIdentifier>{3eee328a-6f15-45c2-9322-470fac6231dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Transform Widgets">
+      <UniqueIdentifier>{d65dff7e-5a33-42e8-85eb-a82c828c6446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widgets">
+      <UniqueIdentifier>{edf944f3-8360-4cdb-aed9-0779892c1509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widgets">
+      <UniqueIdentifier>{6cf183ad-079b-488f-a62c-3f1011384e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Transform Widgets">
+      <UniqueIdentifier>{d47932be-b0b6-47ae-a674-14b732a1c144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Selection Marquee">
+      <UniqueIdentifier>{18c82b31-6696-4daf-b5f2-95b3987a4722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Selection Marquee">
+      <UniqueIdentifier>{5140bef8-3e85-453a-9f0c-336720843552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Qt Models">
+      <UniqueIdentifier>{fa53aac9-28e0-4bb8-81a0-23437ea06cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Qt Models">
+      <UniqueIdentifier>{0323e19c-86f8-4d57-8a46-b50c5b634ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Toolbar">
+      <UniqueIdentifier>{61b08bdb-0211-4110-a40c-23554d189f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Toolbar">
+      <UniqueIdentifier>{85e2cb17-8ac6-4f43-bb50-f2c4fbb1243f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenegraph UI">
+      <UniqueIdentifier>{380f7e15-ad61-4cc3-aed8-681839c1691e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene Graph">
+      <UniqueIdentifier>{fd1a9beb-9461-4960-a912-426896e46103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Node Editor">
+      <UniqueIdentifier>{87fa1ba5-e33f-41b2-b7ac-9cf2210c45b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Node Editor">
+      <UniqueIdentifier>{dc4b15b0-07b6-4bde-b4d3-e6aa27519c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Space">
+      <UniqueIdentifier>{41897799-45bd-4a69-a781-27a91d825a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Space">
+      <UniqueIdentifier>{43a3ce45-56ca-462c-854e-ccb3ec208940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{d9ed6cfd-09c0-4d47-a5de-7db6abfb6460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera Widget">
+      <UniqueIdentifier>{82d26bf4-1a8d-4a6b-99c3-6be0cdd47331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera Widget">
+      <UniqueIdentifier>{09e7830d-1b2c-48aa-92fa-88b7e52f1a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Light Widgets">
+      <UniqueIdentifier>{ba6ca900-5e3e-40c8-85a1-cc916fab1ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Light Widgets">
+      <UniqueIdentifier>{b7b440be-dc76-4833-b4d7-20f44b0d50cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render">
+      <UniqueIdentifier>{019fa7c2-9158-43ac-98e3-c95236030f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{5f707ebc-62da-4b18-8e86-adeb75cfbf3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Properties Editor">
+      <UniqueIdentifier>{645e1700-9148-442e-892a-5c226bafe3ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Properties Editor">
+      <UniqueIdentifier>{6cab2f58-a9bc-4864-bf21-61c1228c3074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene Graph">
+      <UniqueIdentifier>{6f973078-1d7b-4590-8f52-bfe602c6faa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Timeline Editor">
+      <UniqueIdentifier>{42bab8dc-1e53-4697-aef9-eabb3a8fb1f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Timeline Editor">
+      <UniqueIdentifier>{ab434a70-64ec-416e-9c33-7560f13db27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Key Frames">
+      <UniqueIdentifier>{06e8bf9a-ac91-4b02-90f2-35c1f82acfd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Key Frames">
+      <UniqueIdentifier>{c632edba-278d-4c71-ae0c-aa39d35c16a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main Event Loop">
+      <UniqueIdentifier>{dad8f63b-6998-454b-8f75-103f938ccaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Event Loop">
+      <UniqueIdentifier>{72b68bd5-d73d-44a6-92e3-8b144ed9ab15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Materials">
+      <UniqueIdentifier>{d2c6cc03-5e81-44cb-9aa9-8e022fc2d03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Materials">
+      <UniqueIdentifier>{0ee4215e-9f44-4c0b-8a80-cfddd796ddc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IPR">
+      <UniqueIdentifier>{534fef36-a007-4bb2-a43b-caa7c36c7a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IPR">
+      <UniqueIdentifier>{baf755fa-2f56-4de4-a5cc-976c9f62853d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{697e2b6b-7ef5-4a5b-8596-b46497886265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{2b6e3646-dcb0-4fc5-8484-cc00483dfef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{9e3f8ca3-9dcd-44d1-97b2-3c9f0f676deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes">
+      <UniqueIdentifier>{3d17ad3b-d8d0-4a4e-ada2-389ed65ad1e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Math">
+      <UniqueIdentifier>{590d1f18-62b4-4905-bce7-ab0965b55cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\I/O">
+      <UniqueIdentifier>{813874db-457f-4c60-aa74-83c7cb3bcc7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Attributes">
+      <UniqueIdentifier>{bdf10efe-65bb-4ca2-b672-93497e4b0b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Data">
+      <UniqueIdentifier>{79810b25-4904-461d-abfe-52c2496098c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Attributes">
+      <UniqueIdentifier>{dc30ba8c-3f2a-4241-aa27-de1ffd7ff611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Strings">
+      <UniqueIdentifier>{527f1931-9b48-48b5-adc9-6ca9d7dad711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Time">
+      <UniqueIdentifier>{de1e941e-4de1-4dcd-937d-aff0ef8a3d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Material Linker">
+      <UniqueIdentifier>{05090eef-c532-45f4-9f7f-374ba329d966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mime">
+      <UniqueIdentifier>{f4278899-1928-4b39-837c-30c24bb2b37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mime">
+      <UniqueIdentifier>{a57c16e5-cb9d-4713-a493-94b9254c8c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Material Linker">
+      <UniqueIdentifier>{2bcb358d-8a68-4e91-b8c9-fb1f3d95615a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stage Base">
+      <UniqueIdentifier>{2723d2df-9473-4c66-9b1c-ddd9d10ed758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bullet">
+      <UniqueIdentifier>{8b43b82b-1d6b-4b87-b0c3-3b6b7bbfd9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bullet">
+      <UniqueIdentifier>{5781e0d8-d69d-4150-b8b6-41721cc7fb89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stage Base">
+      <UniqueIdentifier>{ab16df2c-9c2e-431a-acc6-506529df34f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Properties Forms">
+      <UniqueIdentifier>{5e14c71f-1377-424a-9948-c77fde557bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Properties Form">
+      <UniqueIdentifier>{1ddaaa6c-a313-4aec-a74a-8c4dc29eb745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Simulation Manager">
+      <UniqueIdentifier>{25684eb1-b18e-4e97-ac8c-72eca1a91d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulation Manager">
+      <UniqueIdentifier>{7431e833-6360-455d-9a46-2a2665fe466c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Timeline Manager">
+      <UniqueIdentifier>{9f5379b6-e9e2-4dda-bb82-c33bbe8c303d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Timeline Manager">
+      <UniqueIdentifier>{38c30007-34f3-4eb1-acba-f2018a1368c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Simulation Caches">
+      <UniqueIdentifier>{abb49595-9704-475f-b6a3-1a5cd7e8c99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Overrides">
+      <UniqueIdentifier>{f671c7c6-0818-482d-b499-a7014b2db1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulation Cache">
+      <UniqueIdentifier>{f886c82a-3114-437d-ba6d-2cdf7f26ca84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overrides">
+      <UniqueIdentifier>{39035db6-5573-48f8-8f86-c2e9c59d7559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Instancing">
+      <UniqueIdentifier>{9a86ceb4-92ed-4797-b0d1-d59deaf7c04c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Instancing">
+      <UniqueIdentifier>{8cd90ff7-08e4-41c7-b8ef-9ffc53c1f68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Point Clouds">
+      <UniqueIdentifier>{22c850b3-0389-4432-a3a2-945874d32c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{4645293f-2b38-477b-8b18-8a46a1e000d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{24f8745c-9446-443f-9688-44ec649ab6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Point Clouds">
+      <UniqueIdentifier>{0f9f4494-0864-4f43-a345-246c2b682d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main Event Updates">
+      <UniqueIdentifier>{28c98b49-a3f2-4d7a-ac53-018fdeaec407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Event Updates">
+      <UniqueIdentifier>{626a8b05-f4f8-4982-9faf-60ff03aed651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Alembic">
+      <UniqueIdentifier>{c3b5ae71-d80e-41bb-9366-4f882188cf03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Alembic">
+      <UniqueIdentifier>{0a53f3cd-4c88-4e4b-9c95-997455d45f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{36773138-925e-4ca5-8a4d-390e1e1e953b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resources">
+      <UniqueIdentifier>{9db48a50-a35d-4a41-a887-03043fed13f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{8246a173-b606-4ac8-9de6-007523b14c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render View">
+      <UniqueIdentifier>{e9dc8549-fa5a-4fac-9536-81d5d096ed65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render View">
+      <UniqueIdentifier>{97be995a-44bf-4be9-83c8-af14a353c4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render View">
+      <UniqueIdentifier>{d5a813af-26c1-4d03-8449-af315d2c743b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Project">
+      <UniqueIdentifier>{1bd65456-1744-4763-a7aa-60e08d9b4513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Project">
+      <UniqueIdentifier>{eea7b923-a675-44e8-8c41-19994b3b295a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Null">
+      <UniqueIdentifier>{2d96bca1-865b-466e-a36c-4f409d1a73bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Null">
+      <UniqueIdentifier>{912fb394-4a56-44b4-8f2e-922e670a34ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Point Cloud Mesher">
+      <UniqueIdentifier>{cfdb0fd9-89d4-408c-88df-6f2cc695cbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Point Cloud Mesher">
+      <UniqueIdentifier>{3582cf28-fc05-44da-bb56-1b1d7279ddab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Flows">
+      <UniqueIdentifier>{cfcb540b-4e82-48a5-8da2-02b54ce5a4c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Flows">
+      <UniqueIdentifier>{36e18e60-eae1-421f-92f6-bd90e2475269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Array">
+      <UniqueIdentifier>{3c378c94-dee7-40f4-ace7-6a9aee84e002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Iteration">
+      <UniqueIdentifier>{aea5cb3b-eb4e-47da-80e9-1f8a00389c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Comparison">
+      <UniqueIdentifier>{2bec0586-2e5f-4906-9e2b-a28f53b9ea59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fluent">
+      <UniqueIdentifier>{dbe4962b-d065-4ff7-b100-8e4beefbaeb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fluent">
+      <UniqueIdentifier>{173f45f6-f5e0-4169-8476-7dbe7fb93099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Fluent Sets">
+      <UniqueIdentifier>{8c731a74-d4b4-4553-9a80-f72b4c09ddcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Bullet">
+      <UniqueIdentifier>{d35d58a6-8c13-400a-ab22-77302d43c8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Nv Blast">
+      <UniqueIdentifier>{6881f43e-2a29-4dad-8c80-55c862e53999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nv Blast">
+      <UniqueIdentifier>{bb4965f8-8906-4ee2-b784-0f59c17a70f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Fracture">
+      <UniqueIdentifier>{bc8652ed-0372-4244-b0aa-cfa387b532b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Transform">
+      <UniqueIdentifier>{3307505e-60d9-42d4-b23c-005613b4b702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Utility">
+      <UniqueIdentifier>{59e76615-7881-4a1a-8146-9f578f260c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sampling">
+      <UniqueIdentifier>{400c1975-435e-467e-a180-df815d24a86b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sampling">
+      <UniqueIdentifier>{e2e49709-abc7-4ca5-9fa0-673d9c795a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Riptide">
+      <UniqueIdentifier>{8a0f5ede-f7c6-455f-992a-ae8b78bea053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Riptide">
+      <UniqueIdentifier>{9141df20-0557-402a-9f34-92f96036f43d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PointCache">
+      <UniqueIdentifier>{1ac85bb9-b2bd-4fb9-8e9e-4c553503c581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cache Track">
+      <UniqueIdentifier>{02721623-dfa8-405c-be2c-1913d0d815bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cache Track">
+      <UniqueIdentifier>{15b612d4-f3d3-469b-b024-29197bc2d992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute Nodes\Track">
+      <UniqueIdentifier>{e7b9513c-6b4a-446c-af7c-a5f1536d0b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\History">
+      <UniqueIdentifier>{a155f695-11cd-4695-8096-9ef2dc7dde66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\History">
+      <UniqueIdentifier>{50ee0c94-4531-4483-a945-062b4fe34aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Licensing">
+      <UniqueIdentifier>{aa92c40f-e99e-41c0-8c4a-562cb89eb48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Licensing">
+      <UniqueIdentifier>{439b77a3-fd09-4082-a094-248ad02f15f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External Tools">
+      <UniqueIdentifier>{5a7a6ac9-65ac-477c-9b67-618504a124fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Tools">
+      <UniqueIdentifier>{eac6a650-ee04-4bc7-832a-2395a26900af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graph Editor">
+      <UniqueIdentifier>{f3c80ead-2edf-4c09-8e09-48992631257f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph Editor">
+      <UniqueIdentifier>{940ccc8e-66d6-426c-904d-a315c86a2902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Grids">
+      <UniqueIdentifier>{c9c2c289-a07f-4dd7-88de-56a7f5891dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Grids">
+      <UniqueIdentifier>{f8d0e2b7-7101-49e3-8da7-0f739df3f98d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glsl">
+      <UniqueIdentifier>{1cd6ecb8-8a3c-4bb3-a68f-775be4ec68d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glsl">
+      <UniqueIdentifier>{6e1d1045-e317-4f55-8766-94f6aacdbaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entropy">
+      <UniqueIdentifier>{070cdab7-690d-44cd-a97a-2aede89277e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entropy">
+      <UniqueIdentifier>{51cd29b3-96ca-464f-8129-65a3bc2152e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DfxVersionNameGlobal.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCommon.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQCommonUI.h">
+      <Filter>Header Files\UI Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOpenglInfo.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxUIStyleGlobal.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQViewportRenderInterface.h">
+      <Filter>Header Files\Viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxWorkGrid.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGrid2d.h">
+      <Filter>Header Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQViewportRenderGL_2_1.h">
+      <Filter>Header Files\Viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQViewportState.h">
+      <Filter>Header Files\Scene View</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQSceneViewViewportWrangler.h">
+      <Filter>Header Files\Scene View</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMenuEditor.h">
+      <Filter>Header Files\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMainMenu.h">
+      <Filter>Header Files\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxShortcutsDB.h">
+      <Filter>Header Files\Shortcuts</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQKeyBuffer.h">
+      <Filter>Header Files\UI Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortcutConfig.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationCommands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxHotkeysSaveLoad.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxToolMapNode.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxToolMap.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolMapInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSceneViewToolbar.h">
+      <Filter>Header Files\Scene View</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxObjectLoader.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxDeepSimplexGeoAdapter.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTranslateWidget.h">
+      <Filter>Header Files\Transform Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxWidgetInterface.h">
+      <Filter>Header Files\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMathUtil.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxScaleWidget.h">
+      <Filter>Header Files\Transform Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRotateWidget.h">
+      <Filter>Header Files\Transform Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgetInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCommands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSelectionMarquee.h">
+      <Filter>Header Files\Selection Marquee</Filter>
+    </ClInclude>
+    <ClInclude Include="ModellingCommands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionCommands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxToolbarDomain.h">
+      <Filter>Header Files\Toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxToolbarGroup.h">
+      <Filter>Header Files\Toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxToolbarItem.h">
+      <Filter>Header Files\Toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxToolbarPage.h">
+      <Filter>Header Files\Toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQViewID.h">
+      <Filter>Header Files\UI Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxViewLayoutManager.h">
+      <Filter>Header Files\UI Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQViewMap.h">
+      <Filter>Header Files\UI Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewMapInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxShaderEditor.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSpace.h">
+      <Filter>Header Files\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxObjectHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentTypes.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxWidgetHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBaseHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxItemWidgetType.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxIOUtil.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxProjectState.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSpaceUtil.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRenderTarget.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRenderManager.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRenderSessionInterface.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLuxCoreSupport.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQDecimalSpinnerControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQIntegerSpinnerControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQControlArray.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBaseControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComboBoxControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQPropertiesEditor.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQColorControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQCheckBoxControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTimelineChannelWidget.h">
+      <Filter>Header Files\Timeline Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTimelineHeaderWidget.h">
+      <Filter>Header Files\Timeline Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTimelineUiConstants.h">
+      <Filter>Header Files\Timeline Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTimelineTrackWidget.h">
+      <Filter>Header Files\Timeline Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQStyleScrollBar.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTimelineFrameIndicator.h">
+      <Filter>Header Files\Timeline Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxKeyFrameManager.h">
+      <Filter>Header Files\Key Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPropertyConduitType.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxKeyableTypes.h">
+      <Filter>Header Files\Timeline Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationCommands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTimelineKeyTrackOverlay.h">
+      <Filter>Header Files\Timeline Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTimelineCommon.h">
+      <Filter>Header Files\Timeline Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMainEventCurrentTimeObserever.h">
+      <Filter>Header Files\Main Event Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="MainEventLoopInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMaterialManager.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLuxcoreMaterials.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialsInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQNodeEditorCommon.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxIPRView.h">
+      <Filter>Header Files\IPR</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRenderSessionLightObserver.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRenderSessionCameraObserver.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQListenerCollection.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQListenerEnums.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQListenerItem.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQListenerItemDeleteButton.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQListenerItemEditButton.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQListenerMenuButton.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxEventEnums.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxListenerHandler.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFlowHandler.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowCollection.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMaterialNodeSlotLabel.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMaterialNodeSlot.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMaterialNodeProperty.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMaterialNodeProperties.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMaterialNodeEnums.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMaterialNodeCollection.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMaterialPropertyLink.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMaterialNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMaterialBaseNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFluentEditorCrumb.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFluentCollectionBase.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowProcessNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowNodeProperties.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowEnums.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowBaseNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowConnector.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowBreakNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowStartNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowDecisionNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowLink.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowDecisionForm.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFlowProcessForm.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQStyleLineEdit.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQStyleListView.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQPushButtonStyles.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxComputeHandler.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeNodeCollection.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeBaseNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeNodeSlot.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeNodeEnums.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeNodeProperty.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputePropertyLink.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeNodeSlotLabel.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxComputeNodeDB.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxComputeNodeDescription.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputeNodeInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeNodeProperties.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeNodeForm.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeCompoundInNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeCompoundNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeCompoundOutNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQLineEditControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQBoolControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCConsoleOutNode.h">
+      <Filter>Compute Nodes\I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxAttribute.h">
+      <Filter>Header Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxAttributeTree.h">
+      <Filter>Header Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRootAttribute.h">
+      <Filter>Header Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMeshAttributes.h">
+      <Filter>Header Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCGetData.h">
+      <Filter>Compute Nodes\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSetData.h">
+      <Filter>Compute Nodes\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQAttributePathControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQAttributeDialog.h">
+      <Filter>Header Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeErrorIcon.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCCommonStringNodes.h">
+      <Filter>Compute Nodes\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCCommonFloatNodes.h">
+      <Filter>Compute Nodes\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQVectorControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeSlotColors.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCCommonVectorNodes.h">
+      <Filter>Compute Nodes\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQCustomSpinner.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCTimeNode.h">
+      <Filter>Compute Nodes\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxResourceManager.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQSceneViewMenu.h">
+      <Filter>Header Files\Scene View</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSetTools.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMaterialLinker.h">
+      <Filter>Header Files\Material Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSurfaceDictionary.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMimeDataTypes.h">
+      <Filter>Header Files\Mime</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMaterialMime.h">
+      <Filter>Header Files\Mime</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMaterialIDMap.h">
+      <Filter>Header Files\Material Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLuxCoreMaterialBuilder.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxUtil.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxStageType.h">
+      <Filter>Header Files\Stage Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletStageHandler.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSimulationStageBase.h">
+      <Filter>Header Files\Stage Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSimulationStageActorBase.h">
+      <Filter>Header Files\Stage Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSimulationStagePropBase.h">
+      <Filter>Header Files\Stage Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxStageEvaluationInfo.h">
+      <Filter>Header Files\Stage Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTime.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletActorNode.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletActorHandler.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBaseForm.h">
+      <Filter>Header Files\Properties Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQObjectNodeForms.h">
+      <Filter>Header Files\Properties Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQSceneNodeForm.h">
+      <Filter>Header Files\Properties Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQSharedPropertyForms.h">
+      <Filter>Header Files\Properties Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTransformOverride.h">
+      <Filter>Header Files\Overrides</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointOverride.h">
+      <Filter>Header Files\Overrides</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTransformCache.h">
+      <Filter>Header Files\Simulation Caches</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointCache.h">
+      <Filter>Header Files\Simulation Caches</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCacheUtils.h">
+      <Filter>Header Files\Simulation Caches</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSimulationCacheBase.h">
+      <Filter>Header Files\Simulation Caches</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletBodyBase.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletRigidBody.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletSoftBody.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTransformCacheOverride.h">
+      <Filter>Header Files\Simulation Caches</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletStaticBody.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletShapeBuilder.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxInstanceManager.h">
+      <Filter>Header Files\Instancing</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxInstancerBase.h">
+      <Filter>Header Files\Instancing</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointCloudNode.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGeometryNode.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGeneratePointsTool.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxToolNodeBase.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGeneratePointsHandler.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQDeepSGTreeModelCommon.h">
+      <Filter>Header Files\Qt Models</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSceneGraphSelectionDialog.h">
+      <Filter>Header Files\Scene Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQEmptyWidget.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQStackControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxToolNode.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletAgent.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointAttributeInstancerTool.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointAttributeInstancerHandler.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNodeFilter.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletPointCloudCacheFilter.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletCommon.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointCacheDeformer.h">
+      <Filter>Header Files\Simulation Caches</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxVertexFilter.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMainEventStack.h">
+      <Filter>Header Files\Main Event Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMainEventProcess.h">
+      <Filter>Header Files\Main Event Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMainEventCommon.h">
+      <Filter>Header Files\Main Event Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxVertexFilterMainEventUpdate.h">
+      <Filter>Header Files\Main Event Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxKeyFrameOverrideMainEventUpdate.h">
+      <Filter>Header Files\Main Event Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNodeFilterMainEventUpdate.h">
+      <Filter>Header Files\Main Event Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMainEventUpdateID.h">
+      <Filter>Header Files\Main Event Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGeoAdapterType.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSimulationCacheCommon.h">
+      <Filter>Header Files\Simulation Caches</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTransformIdentityOverride.h">
+      <Filter>Header Files\Simulation Caches</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxViewportSynchronizer.h">
+      <Filter>Header Files\Viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxViewportCommon.h">
+      <Filter>Header Files\Viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxDynaMesh.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxDynaMeshGeoAdapter.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxToolsMainEventUpdate.h">
+      <Filter>Header Files\Main Event Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxAlembicLoaderTool.h">
+      <Filter>Header Files\Alembic</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxAlembicLoaderHandler.h">
+      <Filter>Header Files\Alembic</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxAlembicIO.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletKinematicRigidBody.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletDeformingRigidBody.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletConstraintWidget.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletConstraintPropNode.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletConstraintPropHandler.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="FluentModelsInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxResource.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxResourcePtr.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxResourceCommon.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSgNodeDB.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSgNodeCommon.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraphInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLxCameraHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLxSunSkyLightHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLxPointLightHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointCloudHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLxEnvironmentLightHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSpaceReset.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLxRenderHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLxCameraWidget.h">
+      <Filter>Header Files\Camera Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLxEnvironmentLightWidget.h">
+      <Filter>Header Files\Light Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLxPointLightWidget.h">
+      <Filter>Header Files\Light Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLXSunSkyLightWidget.h">
+      <Filter>Header Files\Light Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRenderNodeBase.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRenderCommon.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSceneCleanerCommon.h">
+      <Filter>Header Files\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxProjectHeader.h">
+      <Filter>Header Files\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSimulationStageCommon.h">
+      <Filter>Header Files\Stage Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGroupNode.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGroupHandler.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNullNode.h">
+      <Filter>Header Files\Null</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNullCubeShape.h">
+      <Filter>Header Files\Null</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNullHandler.h">
+      <Filter>Header Files\Null</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNullArrowShape.h">
+      <Filter>Header Files\Null</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointCloudMesher.h">
+      <Filter>Header Files\Point Cloud Mesher</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointCloudMesherFilters.h">
+      <Filter>Header Files\Point Cloud Mesher</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOpenVDBPointList.h">
+      <Filter>Header Files\Point Cloud Mesher</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointCloudMesherHandler.h">
+      <Filter>Header Files\Point Cloud Mesher</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCleanerCallbackInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointReaderTool.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointReaderHandler.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLxInfiniteLightWidget.h">
+      <Filter>Header Files\Light Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLxInfiniteLightHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxShapeNode.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQRenderInstanceInfo.h">
+      <Filter>Header Files\Viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="FluentHelperFunctionInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFlowDB.h">
+      <Filter>Header Files\Flows</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBuildArrayNode.h">
+      <Filter>Compute Nodes\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCompoundNodeHandler.h">
+      <Filter>Header Files\Flows</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQComputeCompoundFunctionalIcon.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCForEachNode.h">
+      <Filter>Compute Nodes\Iteration</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCMapNode.h">
+      <Filter>Compute Nodes\Iteration</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCFloatComparisionNodes.h">
+      <Filter>Compute Nodes\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCIfThenElseNode.h">
+      <Filter>Compute Nodes\Comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCFilterNode.h">
+      <Filter>Compute Nodes\Iteration</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPartitionNode.h">
+      <Filter>Compute Nodes\Iteration</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPeekNode.h">
+      <Filter>Compute Nodes\Iteration</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCReduceNode.h">
+      <Filter>Compute Nodes\Iteration</Filter>
+    </ClInclude>
+    <ClInclude Include="FluentInitializers.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQFluentNodeEditor.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentSet.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentSetManager.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentSimplexCollection.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentChannel.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentChannelMap.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentCommon.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentSimplexObject.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentSimplexAdapter.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSceneToSet.h">
+      <Filter>Compute Nodes\Fluent Sets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSetNode.h">
+      <Filter>Compute Nodes\Fluent Sets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentBigID.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCUpdateSetAttribute.h">
+      <Filter>Compute Nodes\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletFluentHelper.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBulletFluentBody.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentCleaner.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNvBlastException.h">
+      <Filter>Header Files\Nv Blast</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNvBlastGlobal.h">
+      <Filter>Header Files\Nv Blast</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNvBlastUtil.h">
+      <Filter>Header Files\Nv Blast</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCVoronoiFracture.h">
+      <Filter>Compute Nodes\Fracture</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCExplodeSetNode.h">
+      <Filter>Compute Nodes\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCToggleSetVisibility.h">
+      <Filter>Compute Nodes\Fluent Sets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletActivationState.h">
+      <Filter>Compute Nodes\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletRigidBodyAttributes.h">
+      <Filter>Compute Nodes\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxComputeUtility.h">
+      <Filter>Compute Nodes\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletAddForce.h">
+      <Filter>Compute Nodes\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointSampling.h">
+      <Filter>Header Files\Sampling</Filter>
+    </ClInclude>
+    <ClInclude Include="PoissonDiskSampling.h">
+      <Filter>Header Files\Sampling</Filter>
+    </ClInclude>
+    <ClInclude Include="RegularTriangleSampling.h">
+      <Filter>Header Files\Sampling</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplingTriangleMesh.h">
+      <Filter>Header Files\Sampling</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTriangleMeshSampling.h">
+      <Filter>Header Files\Sampling</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointSamplerHandler.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideStageHandler.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideActorNode.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideActorHandler.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideCommon.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideCachePropNode.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideCachePropHandler.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideAgent.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentStreamCollection.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideEmitterPropNode.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideEmitterPropHandler.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideDefaultAttributes.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentUtil.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentTracker.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCProximityNode.h">
+      <Filter>Compute Nodes\Fluent Sets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCMoveSetNode.h">
+      <Filter>Compute Nodes\Fluent Sets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFluentAttributeDictionary.h">
+      <Filter>Header Files\Fluent</Filter>
+    </ClInclude>
+    <ClInclude Include="FluentComputeAttributesInitializer.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQEditableComboBoxControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCReadSetAttribute.h">
+      <Filter>Compute Nodes\Fluent Sets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCWriteSetAttribute.h">
+      <Filter>Compute Nodes\Fluent Sets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCCreateSetAttribute.h">
+      <Filter>Compute Nodes\Fluent Sets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSimplexToBullet.h">
+      <Filter>Compute Nodes\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCStreamToBullet.h">
+      <Filter>Compute Nodes\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSetSize.h">
+      <Filter>Compute Nodes\Fluent Sets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCFilterFloatAttribute.h">
+      <Filter>Compute Nodes\Fluent Sets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletKill.h">
+      <Filter>Compute Nodes\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCacheTrack.h">
+      <Filter>Header Files\Cache Track</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCacheSimplexInfo.h">
+      <Filter>Header Files\Cache Track</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCacheRecorder.h">
+      <Filter>Header Files\Cache Track</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCachePlayer.h">
+      <Filter>Header Files\Cache Track</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCacheSnapShot.h">
+      <Filter>Header Files\Cache Track</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCacheFormat.h">
+      <Filter>Header Files\Cache Track</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLuxCoreRenderSession.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLuxObjectSegment.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLuxMaterialChangeDispatch.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQStringComboBoxControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCFloatRangeNode.h">
+      <Filter>Compute Nodes\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCTrackSetSize.h">
+      <Filter>Compute Nodes\Track</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCOverrideSetMaterialID.h">
+      <Filter>Compute Nodes\Track</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQDialogWindow.h">
+      <Filter>Header Files\UI Base</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedTriangleMesh.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxHistoryAction.h">
+      <Filter>Header Files\History</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxHistoryManager.h">
+      <Filter>Header Files\History</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxAnyHistoryAction.h">
+      <Filter>Header Files\History</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTransformHistoryAction.h">
+      <Filter>Header Files\History</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxHistoryActionArray.h">
+      <Filter>Header Files\History</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideHeaterPropHandler.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRiptideHeaterPropNode.h">
+      <Filter>Header Files\Riptide</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeepFxStudioLicenseManager.h">
+      <Filter>Header Files\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="DeepStudioRegistry.h">
+      <Filter>Header Files\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="DeepStudioRegistryPaths.h">
+      <Filter>Header Files\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSystemIDBase.h">
+      <Filter>Header Files\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSystemIDMacAddress.h">
+      <Filter>Header Files\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSystemIDGlobal.h">
+      <Filter>Header Files\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLicenseInfoDialog.h">
+      <Filter>Header Files\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxTrialHandshake.h">
+      <Filter>Header Files\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNodeUtils.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEditorCommands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQViewportCommon.h">
+      <Filter>Header Files\Viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointShapeHandler.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxBoundsMinMax.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxToolbarMenu.h">
+      <Filter>Header Files\Toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadExternalTools.h">
+      <Filter>Header Files\Bootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxExternalTools.h">
+      <Filter>Header Files\External Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxExternalToolsCommon.h">
+      <Filter>Header Files\External Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxExternalToolsDeclarations.h">
+      <Filter>Header Files\External Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxExternalToolGlobalState.h">
+      <Filter>Header Files\External Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DFxExternalToolGlobalStateHandle.h">
+      <Filter>Header Files\External Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxExternalToolGlobalStateCommon.h">
+      <Filter>Header Files\External Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxRenderDelegateNode.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointProximityKillHandler.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointProximityScaleHandler.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxInterpolation.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGraphEditorCommon.h">
+      <Filter>Header Files\Graph Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGraphEditorChannel.h">
+      <Filter>Header Files\Graph Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGraphEditorControlPoint.h">
+      <Filter>Header Files\Graph Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGraphEditorCurve.h">
+      <Filter>Header Files\Graph Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQColorList.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxKeyFrameInterpolation.h">
+      <Filter>Header Files\Key Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGridNode.h">
+      <Filter>Header Files\Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGridHandler.h">
+      <Filter>Header Files\Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLoadVDBHandler.h">
+      <Filter>Header Files\Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLoadVDBTool.h">
+      <Filter>Header Files\Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGLSLShaderWrangler.h">
+      <Filter>Header Files\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxGridTypes.h">
+      <Filter>Header Files\Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOpenVDBGridAdapter.h">
+      <Filter>Header Files\Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxVDBGridChannel.h">
+      <Filter>Header Files\Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOpenGLCacheQueue.h">
+      <Filter>Header Files\Viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOSPRayRenderSession.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOSPRayRenderHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOSPRayCameraHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOSPRayCameraWidget.h">
+      <Filter>Header Files\Camera Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOSPRaySunSkyLightWidget.h">
+      <Filter>Header Files\Light Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOSPRaySunSkyLightHandler.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOSPRayCommon.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxLuxMaterialHandler.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOSPRayMaterialHandler.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOSPRayMaterials.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxQMaterialNodeForm.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxOSPRayMaterialBuilder.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxMeshToGridHandler.h">
+      <Filter>Header Files\Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxEntropyStageHandler.h">
+      <Filter>Header Files\Entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxEntropyCachePropHandler.h">
+      <Filter>Header Files\Entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxEntropyCachePropNode.h">
+      <Filter>Header Files\Entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxEntropyAgent.h">
+      <Filter>Header Files\Entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxEntropyDomainPropHandler.h">
+      <Filter>Header Files\Entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxEntropyDomainPropNode.h">
+      <Filter>Header Files\Entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxEntropyCommon.h">
+      <Filter>Header Files\Entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxEntropyActorHandler.h">
+      <Filter>Header Files\Entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxEntropyActorNode.h">
+      <Filter>Header Files\Entropy</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalSort.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="DfxQMainWindow.h">
+      <Filter>Header Files\UI Base</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQViewManager.h">
+      <Filter>Header Files\UI Base</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQViewContainer.h">
+      <Filter>Header Files\UI Base</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQView.h">
+      <Filter>Header Files\UI Base</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQSceneView.h">
+      <Filter>Header Files\Scene View</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQHotkeyEditor.h">
+      <Filter>Header Files\Shortcuts</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxUpdater.h">
+      <Filter>Header Files\Globals</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxSceneSelectionModel.h">
+      <Filter>Header Files\Scene Selection</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxWidgetManager.h">
+      <Filter>Header Files\Widgets</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxMode.h">
+      <Filter>Header Files\Globals</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxMeshSelectionModel.h">
+      <Filter>Header Files\Scene Selection</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQDeepSGTreeModel.h">
+      <Filter>Header Files\Qt Models</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQLayoutWidget.h">
+      <Filter>Header Files\UI Base</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxSceneGraphEditor.h">
+      <Filter>Header Files\Scene Graph</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQSceneManager.h">
+      <Filter>Header Files\DeepSg</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxViewportOverlay.h">
+      <Filter>Header Files\Viewport</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQSceneViewport.h">
+      <Filter>Header Files\Viewport</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQPropertiesHub.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQControlPanel.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxTimelineScrollEventFilter.h">
+      <Filter>Header Files\Timeline Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxPropertyConduit.h">
+      <Filter>Header Files\Globals</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxTimelineTrackEventFilter.h">
+      <Filter>Header Files\Timeline Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxTimelineEditor.h">
+      <Filter>Header Files\Timeline Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQMaterialListModel.h">
+      <Filter>Header Files\Qt Models</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQListenerNodeView.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQMaterialNodeView.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQFlowNodeView.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQComputeNodeView.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxEventManager.h">
+      <Filter>Header Files\Events</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxMainEventLoop.h">
+      <Filter>Header Files\Main Event Loop</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQListenerItemOrderButton.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQListenerNode.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxResourceBrowser.h">
+      <Filter>Header Files\Resources</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQResourceModel.h">
+      <Filter>Header Files\Resources</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxMimeDataBase.h">
+      <Filter>Header Files\Mime</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxTimelineManager.h">
+      <Filter>Header Files\Timeline Manager</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxTimelinePlayTask.h">
+      <Filter>Header Files\Timeline Manager</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxTimelineSimulationPlayTask.h">
+      <Filter>Header Files\Timeline Manager</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxSimulationManager.h">
+      <Filter>Header Files\Simulation Manager</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxBulletStageNode.h">
+      <Filter>Header Files\Bullet</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxBulletFlDispatcher.h">
+      <Filter>Header Files\Bullet</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQDeepSGSelectionTreeModel.h">
+      <Filter>Header Files\Qt Models</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxToolFlDispatcher.h">
+      <Filter>Header Files\Tools</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxRenderHub.h">
+      <Filter>Header Files\Render</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxRenderBuffer.h">
+      <Filter>Header Files\Render</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxRenderOutput.h">
+      <Filter>Header Files\Render</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxLuxCoreRenderNode.h">
+      <Filter>Header Files\Render</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxRenderView.h">
+      <Filter>Header Files\Render View</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxPointCloudMesherNode.h">
+      <Filter>Header Files\Point Cloud Mesher</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQFluentPathControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxProject.h">
+      <Filter>Header Files\Project</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxPointSamplerTool.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxRiptideStageNode.h">
+      <Filter>Header Files\Riptide</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxRiptideFlDispatcher.h">
+      <Filter>Header Files\Riptide</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxObjectCache.h">
+      <Filter>Header Files\Viewport</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQComputePopupMenu.h">
+      <Filter>Header Files\Node Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQCacheTrackModel.h">
+      <Filter>Header Files\Cache Track</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQCacheTrackEditor.h">
+      <Filter>Header Files\Cache Track</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQCacheTrackListItem.h">
+      <Filter>Header Files\Cache Track</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQInfomationOverlay.h">
+      <Filter>Header Files\Viewport</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxRenderSessionUpdateListener.h">
+      <Filter>Header Files\Render</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxCacheTrackManager.h">
+      <Filter>Header Files\Cache Track</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxSceneCleaner.h">
+      <Filter>Header Files\Globals</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxPointShapeTool.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxPointProximityKillTool.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxPointProximityScaleTool.h">
+      <Filter>Header Files\Point Clouds</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQFilePathControl.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxGraphEditor.h">
+      <Filter>Header Files\Graph Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxChannelGraphView.h">
+      <Filter>Header Files\Graph Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxGraphEditorManager.h">
+      <Filter>Header Files\Graph Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxGraphEditorModel.h">
+      <Filter>Header Files\Graph Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxQKeyCheckBox.h">
+      <Filter>Header Files\Properties Editor</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxVolumeCache.h">
+      <Filter>Header Files\Viewport</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxOpenGLCacheManager.h">
+      <Filter>Header Files\Viewport</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxOSPRayRenderNode.h">
+      <Filter>Header Files\Render</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxMeshToGridTool.h">
+      <Filter>Header Files\Grids</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxEntropyStageNode.h">
+      <Filter>Header Files\Entropy</Filter>
+    </QtMoc>
+    <QtMoc Include="DfxEntropyFlDispatcher.h">
+      <Filter>Header Files\Entropy</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMainWindow.cpp">
+      <Filter>Source Files\UI Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQViewContainer.cpp">
+      <Filter>Source Files\UI Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQViewManager.cpp">
+      <Filter>Source Files\UI Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxVersionNameGlobal.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQView.cpp">
+      <Filter>Source Files\UI Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOpenglInfo.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxUIStyleGlobal.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQSceneViewport.cpp">
+      <Filter>Source Files\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxWorkGrid.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGrid2d.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQSceneView.cpp">
+      <Filter>Source Files\Scene View</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQViewportRenderGL_2_1.cpp">
+      <Filter>Source Files\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQSceneViewViewportWrangler.cpp">
+      <Filter>Source Files\Scene View</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMenuEditor.cpp">
+      <Filter>Source Files\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMainMenu.cpp">
+      <Filter>Source Files\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxShortcutsDB.cpp">
+      <Filter>Source Files\Shortcuts</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQKeyBuffer.cpp">
+      <Filter>Source Files\UI Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxHotkeyEditor.cpp">
+      <Filter>Source Files\Shortcuts</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationCommands.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortcutConfig.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxHotkeysSaveLoad.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxToolMapNode.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxToolMap.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolMapInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxObjectLoader.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cc">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxDeepSimplexGeoAdapter.cpp">
+      <Filter>Source Files\DeepSg</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSceneSelectionModel.cpp">
+      <Filter>Source Files\Scene Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxWidgetInterface.cpp">
+      <Filter>Source Files\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxScaleWidget.cpp">
+      <Filter>Source Files\Transform Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTranslateWidget.cpp">
+      <Filter>Source Files\Transform Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRotateWidget.cpp">
+      <Filter>Source Files\Transform Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxUpdater.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxWidgetManager.cpp">
+      <Filter>Source Files\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMode.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneCommands.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMeshSelectionModel.cpp">
+      <Filter>Source Files\Scene Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSelectionMarquee.cpp">
+      <Filter>Source Files\Selection Marquee</Filter>
+    </ClCompile>
+    <ClCompile Include="ModellingCommands.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionCommands.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQDeepSGTreeModel.cpp">
+      <Filter>Source Files\Qt Models</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxToolbarGroup.cpp">
+      <Filter>Source Files\Toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxToolbarItem.cpp">
+      <Filter>Source Files\Toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxToolbarPage.cpp">
+      <Filter>Source Files\Toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxToolbarDomain.cpp">
+      <Filter>Source Files\Toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxViewLayoutManager.cpp">
+      <Filter>Source Files\UI Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQViewID.cpp">
+      <Filter>Source Files\UI Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQViewMap.cpp">
+      <Filter>Source Files\UI Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewMapInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQLayoutWidget.cpp">
+      <Filter>Source Files\UI Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSceneGraphEditor.cpp">
+      <Filter>Source Files\Scene Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQSceneManager.cpp">
+      <Filter>Source Files\DeepSg</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxShaderEditor.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSpace.cpp">
+      <Filter>Source Files\Space</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxObjectHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxWidgetHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBaseHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEnvironmentLightHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxIOUtil.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSpaceUtil.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRenderManager.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLuxCoreRenderSession.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLuxCoreGlobal.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLuxCoreSupport.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQViewportRenderInterface.cpp">
+      <Filter>Source Files\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxViewportOverlay.cpp">
+      <Filter>Source Files\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQPropertiesHub.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQDecimalSpinnerControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQIntegerSpinnerControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQControlArray.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBaseControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComboBoxControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQPropertiesEditor.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQControlPanel.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQCheckBoxControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTimelineEditor.cpp">
+      <Filter>Source Files\Timeline Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTimelineChannelWidget.cpp">
+      <Filter>Source Files\Timeline Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTimelineHeaderWidget.cpp">
+      <Filter>Source Files\Timeline Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTimelineTrackWidget.cpp">
+      <Filter>Source Files\Timeline Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQStyleScrollBar.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTimelineScrollEventFilter.cpp">
+      <Filter>Source Files\Timeline Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTimelineFrameIndicator.cpp">
+      <Filter>Source Files\Timeline Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxKeyFrameManager.cpp">
+      <Filter>Source Files\Key Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPropertyConduit.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationCommands.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTimelineKeyTrackOverlay.cpp">
+      <Filter>Source Files\Timeline Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTimelineTrackEventFilter.cpp">
+      <Filter>Source Files\Timeline Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMainEventLoop.cpp">
+      <Filter>Source Files\Main Event Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMainEventCurrentTimeObserever.cpp">
+      <Filter>Source Files\Main Event Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="MainEventLoopInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMaterialListModel.cpp">
+      <Filter>Source Files\Qt Models</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMaterialManager.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLuxcoreMaterials.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQColorControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxIPRView.cpp">
+      <Filter>Source Files\IPR</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRenderSessionLightObserver.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRenderSessionCameraObserver.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQListenerCollection.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFluentNodeEditor.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQListenerNodeView.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQListenerNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQListenerItemEditButton.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQListenerItem.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQListenerItemDeleteButton.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQListenerItemOrderButton.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQListenerMenuButton.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEventEnums.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEventManager.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxListenerHandler.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFlowHandler.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMaterialBaseNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMaterialNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMaterialNodeView.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMaterialNodeCollection.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMaterialNodeProperties.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMaterialNodeProperty.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMaterialNodeSlot.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMaterialNodeSlotLabel.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMaterialPropertyLink.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowCollection.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowNodeView.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowNodeProperties.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowBaseNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowProcessNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowConnector.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowBreakNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowStartNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowDecisionNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowLink.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowDecisionForm.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFlowProcessForm.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQStyleLineEdit.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQStyleListView.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxComputeHandler.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeBaseNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeNodeCollection.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeNodeSlot.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeNodeProperty.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeNodeSlotLabel.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeNodeView.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputePropertyLink.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputeNodeInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeNodeForm.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeNodeProperties.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeCompoundNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxComputeNodeDB.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeCompoundOutNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeCompoundInNode.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQLineEditControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQBoolControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxAttribute.cpp">
+      <Filter>Source Files\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRootAttribute.cpp">
+      <Filter>Source Files\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMeshAttributes.cpp">
+      <Filter>Source Files\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxObjectCache.cpp">
+      <Filter>Source Files\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxAttributeTree.cpp">
+      <Filter>Source Files\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQAttributePathControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQAttributeDialog.cpp">
+      <Filter>Source Files\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeErrorIcon.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeSlotColors.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQVectorControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQCustomSpinner.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxResourceManager.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQResourceModel.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxResourceBrowser.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQSceneViewMenu.cpp">
+      <Filter>Source Files\Scene View</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSetTools.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSurfaceDictionary.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMimeDataBase.cpp">
+      <Filter>Source Files\Mime</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMaterialMime.cpp">
+      <Filter>Source Files\Mime</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMaterialLinker.cpp">
+      <Filter>Source Files\Material Linker</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMaterialIDMap.cpp">
+      <Filter>Source Files\Material Linker</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLuxCoreMaterialBuilder.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletStageHandler.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletStageNode.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSimulationStageBase.cpp">
+      <Filter>Source Files\Stage Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSimulationStageActorBase.cpp">
+      <Filter>Source Files\Stage Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSimulationStagePropBase.cpp">
+      <Filter>Source Files\Stage Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletActorNode.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletActorHandler.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQSceneNodeForm.cpp">
+      <Filter>Source Files\Properties Form</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQObjectNodeForms.cpp">
+      <Filter>Source Files\Properties Form</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQSharedPropertyForms.cpp">
+      <Filter>Source Files\Properties Form</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSimulationManager.cpp">
+      <Filter>Source Files\Simulation Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTimelineManager.cpp">
+      <Filter>Source Files\Timeline Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTimelinePlayTask.cpp">
+      <Filter>Source Files\Timeline Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTransformCache.cpp">
+      <Filter>Source Files\Simulation Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSimulationCacheBase.cpp">
+      <Filter>Source Files\Simulation Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletBodyBase.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletRigidBody.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTimelineSimulationPlayTask.cpp">
+      <Filter>Source Files\Timeline Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletFlDispatcher.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTransformCacheOverride.cpp">
+      <Filter>Source Files\Simulation Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletStaticBody.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletShapeBuilder.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxInstanceBase.cpp">
+      <Filter>Source Files\Instancing</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxInstanceManager.cpp">
+      <Filter>Source Files\Instancing</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGeometryNode.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointCloudNode.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGeneratePointsTool.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGeneratePointsHandler.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQDeepSGSelectionTreeModel.cpp">
+      <Filter>Source Files\Qt Models</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQDeepSGTreeModelCommon.cpp">
+      <Filter>Source Files\Qt Models</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSceneGraphSelectionDialog.cpp">
+      <Filter>Source Files\Scene Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFluentPathControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQEmptyWidget.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQStackControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxToolFlDispatcher.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointAttributeInstancerTool.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointAttributeInstancerHandler.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletPointCloudCacheFilter.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletSoftBody.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointCache.cpp">
+      <Filter>Source Files\Simulation Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointCacheDeformer.cpp">
+      <Filter>Source Files\Simulation Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMainEventProcess.cpp">
+      <Filter>Source Files\Main Event Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMainEventStack.cpp">
+      <Filter>Source Files\Main Event Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxKeyFrameOverrideMainEventUpdate.cpp">
+      <Filter>Source Files\Main Event Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxVertexFilterMainEventUpdate.cpp">
+      <Filter>Source Files\Main Event Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNodeFilterMainEventUpdate.cpp">
+      <Filter>Source Files\Main Event Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletAgent.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTransformIdentityOverride.cpp">
+      <Filter>Source Files\Simulation Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxViewportSynchronizer.cpp">
+      <Filter>Source Files\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxDynaMesh.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxDynaMeshGeoAdapter.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxToolsMainEventUpdate.cpp">
+      <Filter>Source Files\Main Event Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxAlembicLoaderTool.cpp">
+      <Filter>Source Files\Alembic</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxAlembicLoaderHandler.cpp">
+      <Filter>Source Files\Alembic</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxAlembicIO.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQFilePathControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletKinematicRigidBody.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletDeformingRigidBody.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletConstraintPropHandler.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletConstraintPropNode.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletConstraintWidget.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxUtil.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FluentModelsInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxResource.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxResourcePtr.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSgNodeDB.cpp">
+      <Filter>Source Files\DeepSg</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraphInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLxCameraHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLxPointLightHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLxSunSkyLightHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointCloudHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSpaceReset.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLuxCoreRenderNode.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLxRenderHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLxCameraWidget.cpp">
+      <Filter>Source Files\Camera Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLxEnvironmentLightWidget.cpp">
+      <Filter>Source Files\Light Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLxPointLightWidget.cpp">
+      <Filter>Source Files\Light Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLxSunSkyLightWidget.cpp">
+      <Filter>Source Files\Light Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRenderNodeBase.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRenderOutput.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRenderBuffer.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRenderHub.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRenderView.cpp">
+      <Filter>Source Files\Render View</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSceneCleaner.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxProject.cpp">
+      <Filter>Source Files\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSimulationStageCommon.cpp">
+      <Filter>Source Files\Stage Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGroupNode.cpp">
+      <Filter>Source Files\DeepSg</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGroupHandler.cpp">
+      <Filter>Source Files\DeepSg</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNullNode.cpp">
+      <Filter>Source Files\Null</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNullCubeShape.cpp">
+      <Filter>Source Files\Null</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNullHandler.cpp">
+      <Filter>Source Files\Null</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNullArrowShape.cpp">
+      <Filter>Source Files\Null</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointCloudMesher.cpp">
+      <Filter>Source Files\Point Cloud Mesher</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointCloudMesherFilters.cpp">
+      <Filter>Source Files\Point Cloud Mesher</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOpenVDBPointList.cpp">
+      <Filter>Source Files\Point Cloud Mesher</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointCloudMesherNode.cpp">
+      <Filter>Source Files\Point Cloud Mesher</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointCloudMesherHandler.cpp">
+      <Filter>Source Files\Point Cloud Mesher</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneCleanerCallbackInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointReaderHandler.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointReaderTool.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLxInfiniteLightWidget.cpp">
+      <Filter>Source Files\Light Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLxInfiniteLightHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FluentHelperFunctionInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFlowDB.cpp">
+      <Filter>Source Files\Flows</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCompoundNodeHandler.cpp">
+      <Filter>Source Files\Flows</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputeCompoundFunctionalIcon.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="FluentInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentSet.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentChannel.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentChannelMap.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentSimplexObject.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentSimplexAdapter.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentSimplexCollection.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentSetManager.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentBigID.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletFluentHelper.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxBulletFluentBody.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentCleaner.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNvBlastException.cpp">
+      <Filter>Source Files\Nv Blast</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNvBlastGlobal.cpp">
+      <Filter>Source Files\Nv Blast</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNvBlastUtil.cpp">
+      <Filter>Source Files\Nv Blast</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCVoronoiFracture.cpp">
+      <Filter>Compute Nodes\Fracture</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointSampling.cpp">
+      <Filter>Source Files\Sampling</Filter>
+    </ClCompile>
+    <ClCompile Include="PoissonDiskSampling.cpp">
+      <Filter>Source Files\Sampling</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularTriangleSampling.cpp">
+      <Filter>Source Files\Sampling</Filter>
+    </ClCompile>
+    <ClCompile Include="SamplingTriangleMesh.cpp">
+      <Filter>Source Files\Sampling</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTriangleMeshSampling.cpp">
+      <Filter>Source Files\Sampling</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointSamplerHandler.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointSamplerTool.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRiptideStageNode.cpp">
+      <Filter>Source Files\Riptide</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRiptideStageHandler.cpp">
+      <Filter>Source Files\Riptide</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRiptideActorNode.cpp">
+      <Filter>Source Files\Riptide</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRiptideActorHandler.cpp">
+      <Filter>Source Files\Riptide</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRiptideCachePropHandler.cpp">
+      <Filter>Source Files\Riptide</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRiptideCachePropNode.cpp">
+      <Filter>Source Files\Riptide</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRiptideFlDispatcher.cpp">
+      <Filter>Source Files\Riptide</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentStreamCollection.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRiptideEmitterPropNode.cpp">
+      <Filter>Source Files\Riptide</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRiptideEmitterPropHandler.cpp">
+      <Filter>Source Files\Riptide</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentUtil.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentTracker.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFluentAttributeDictionary.cpp">
+      <Filter>Source Files\Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="FluentComputeAttributesInitializer.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQEditableComboBoxControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQComputePopupMenu.cpp">
+      <Filter>Source Files\Node Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCacheTrack.cpp">
+      <Filter>Source Files\Cache Track</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCacheTrackManager.cpp">
+      <Filter>Source Files\Cache Track</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQCacheTrackModel.cpp">
+      <Filter>Source Files\Cache Track</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQCacheTrackEditor.cpp">
+      <Filter>Source Files\Cache Track</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQCacheTrackListItem.cpp">
+      <Filter>Source Files\Cache Track</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCacheRecorder.cpp">
+      <Filter>Source Files\Cache Track</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCacheSnapShot.cpp">
+      <Filter>Source Files\Cache Track</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCachePlayer.cpp">
+      <Filter>Source Files\Cache Track</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQInfomationOverlay.cpp">
+      <Filter>Source Files\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRenderSessionUpdateListener.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLuxMaterialChangeDispatch.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQStringComboBoxControl.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQDialogWindow.cpp">
+      <Filter>Source Files\UI Base</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexedTriangleMesh.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxHistoryManager.cpp">
+      <Filter>Source Files\History</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxHistoryAction.cpp">
+      <Filter>Source Files\History</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxAnyHistoryAction.cpp">
+      <Filter>Source Files\History</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTransformHistoryAction.cpp">
+      <Filter>Source Files\History</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxHistoryActionArray.cpp">
+      <Filter>Source Files\History</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRiptideHeaterPropNode.cpp">
+      <Filter>Source Files\Riptide</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxRiptideHeaterPropHandler.cpp">
+      <Filter>Source Files\Riptide</Filter>
+    </ClCompile>
+    <ClCompile Include="DeepFxStudioLicenseManager.cpp">
+      <Filter>Source Files\Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="DeepStudioRegistry.cpp">
+      <Filter>Source Files\Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="DeepStudioRegistryPaths.cpp">
+      <Filter>Source Files\Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSystemIDMacAddress.cpp">
+      <Filter>Source Files\Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSystemIDGlobal.cpp">
+      <Filter>Source Files\Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLicenseInfoDialog.cpp">
+      <Filter>Source Files\Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxTrialHandshake.cpp">
+      <Filter>Source Files\Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNodeUtils.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointShapeHandler.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointShapeTool.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxToolbarMenu.cpp">
+      <Filter>Source Files\Toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadExternalTools.cpp">
+      <Filter>Source Files\Bootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxExternalTools.cpp">
+      <Filter>Source Files\External Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxExternalToolGlobalState.cpp">
+      <Filter>Source Files\External Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxExternalToolGlobalStateHandle.cpp">
+      <Filter>Source Files\External Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointProximityKillHandler.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointProximityKillTool.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointProximityScaleHandler.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointProximityScaleTool.cpp">
+      <Filter>Source Files\Point Clouds</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGraphEditor.cpp">
+      <Filter>Source Files\Graph Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxChannelGraphView.cpp">
+      <Filter>Source Files\Graph Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGraphEditorChannel.cpp">
+      <Filter>Source Files\Graph Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGraphEditorModel.cpp">
+      <Filter>Source Files\Graph Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGraphEditorManager.cpp">
+      <Filter>Source Files\Graph Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQColorList.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQKeyCheckBox.cpp">
+      <Filter>Source Files\Properties Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxKeyFrameInterpolation.cpp">
+      <Filter>Source Files\Key Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGridNode.cpp">
+      <Filter>Source Files\Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGridHandler.cpp">
+      <Filter>Source Files\Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLoadVDBTool.cpp">
+      <Filter>Source Files\Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLoadVDBHandler.cpp">
+      <Filter>Source Files\Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxGLSLShaderWrangler.cpp">
+      <Filter>Source Files\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxVolumeCache.cpp">
+      <Filter>Source Files\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOpenVDBGridAdapter.cpp">
+      <Filter>Source Files\Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxVDBGridChannel.cpp">
+      <Filter>Source Files\Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOpenGLCacheManager.cpp">
+      <Filter>Source Files\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOpenGLCacheQueue.cpp">
+      <Filter>Source Files\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOSPRayRenderNode.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOSPRayRenderSession.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOSPRayRenderHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOSPRayCameraHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOSPRayCameraWidget.cpp">
+      <Filter>Source Files\Camera Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOSPRaySunSkyLightWidget.cpp">
+      <Filter>Source Files\Light Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOSPRaySunSkyLightHandler.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOSPRayCommon.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxLuxMaterialHandler.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOSPRayMaterialHandler.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOSPRayMaterials.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxQMaterialNodeForm.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxOSPRayMaterialBuilder.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMeshToGridHandler.cpp">
+      <Filter>Source Files\Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxMeshToGridTool.cpp">
+      <Filter>Source Files\Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEntropyStageHandler.cpp">
+      <Filter>Source Files\Entropy</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEntropyStageNode.cpp">
+      <Filter>Source Files\Entropy</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEntropyCachePropHandler.cpp">
+      <Filter>Source Files\Entropy</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEntropyCachePropNode.cpp">
+      <Filter>Source Files\Entropy</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEntropyDomainPropHandler.cpp">
+      <Filter>Source Files\Entropy</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEntropyDomainPropNode.cpp">
+      <Filter>Source Files\Entropy</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEntropActorHandler.cpp">
+      <Filter>Source Files\Entropy</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEntropyActorNode.cpp">
+      <Filter>Source Files\Entropy</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxEntropyFlDispatcher.cpp">
+      <Filter>Source Files\Entropy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="DeepFXStudioEx.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="mainicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

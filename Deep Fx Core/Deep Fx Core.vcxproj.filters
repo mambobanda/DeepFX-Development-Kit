@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="DfxSimulationCoreGlobal.h">
+      <Filter>Header Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCMeshVoxelizer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCVoxel.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSpatialHash.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHComponents.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHParticle.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHParticleType.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHConduit.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHGlobal.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHLiquid.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHRigid.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHParticleCache.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPointXForm.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCDivergenceFreeSPHSolver.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSimulationEntity.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCCompactSearch.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCCubicSpline.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPoly6.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletSolver.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletRigidObject.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPointGrid.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletRigidArray.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="btDbvtTester.h">
+      <Filter>Header Files\MISC-R&amp;D</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHShapeEmitter.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSimulationCache.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCParticleCacheLoader.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCFoamGenerator.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCParticleCache.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFoamCompactSearch.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxFoamParticle.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHMapChannel.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletPointCache.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHViscosity.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHAbstractForce.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHVorticity.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHAdhesion.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNvBlastUtil.h">
+      <Filter>Header Files\Blast</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxVoronoiFracture.h">
+      <Filter>Header Files\Blast</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCUniformMeshSampler.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxVectorMeshSampler.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNvBlastGlobal.h">
+      <Filter>Header Files\Blast</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCExplodeView.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxNvBlastException.h">
+      <Filter>Header Files\Blast</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletRigidHandle.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxAlembicMeshProxy.h">
+      <Filter>Header Files\Alembic</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCAlembicObjectCache.h">
+      <Filter>Header Files\Alembic</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHBulletRigid.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCSPHBulletRigidHandle.h">
+      <Filter>Header Files\SPH</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCMeshVoxelisingFunctions.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPBDGrainCompactSearch.h">
+      <Filter>Header Files\PBD Grains</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPBDGrainParticle.h">
+      <Filter>Header Files\PBD Grains</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPBDGrainSolver.h">
+      <Filter>Header Files\PBD Grains</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPBDGrainGrains.h">
+      <Filter>Header Files\PBD Grains</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPBDGrainParticleType.h">
+      <Filter>Header Files\PBD Grains</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCParticleCollider.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCParticleCollider_btDbvtCallback.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCParticleTriangle.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPBDGrainConstraint.h">
+      <Filter>Header Files\PBD Grains</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPBDGrainDistanceConstraint.h">
+      <Filter>Header Files\PBD Grains</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPBDGrainFrictionConstraint.h">
+      <Filter>Header Files\PBD Grains</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPBDGrainPenetrationConstraint.h">
+      <Filter>Header Files\PBD Grains</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPBDGrainMapChannel.h">
+      <Filter>Header Files\PBD Grains</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCCollisionResponseInterface.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCDefaultCollisionResponse.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCParticleRigid.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPBDGrainPointRigid.h">
+      <Filter>Header Files\PBD Grains</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCKillVolume.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletGlueConstraint.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletCollisionPacket.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletHandle.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletHandleType.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletCollisionActions.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletPointToPointConstraint.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCBulletHingeConstraint.h">
+      <Filter>Header Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCutoutFracture.h">
+      <Filter>Header Files\Blast</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxSliceFracture.h">
+      <Filter>Header Files\Blast</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxPlaneFracture.h">
+      <Filter>Header Files\Blast</Filter>
+    </ClInclude>
+    <ClInclude Include="DfxCPlane.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6bed17e2-00e4-424f-8b4d-91c1ca764fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{68c700a5-e745-4643-8e02-8b7c095b0148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Global">
+      <UniqueIdentifier>{9337d48e-e53b-4023-831b-a332bfc5fbed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Global IDS">
+      <UniqueIdentifier>{741eb6f5-88c8-4f83-ab1c-8cbc82795965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{a7c20dfb-cd1c-4f7e-8f67-88521f3a208f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Global">
+      <UniqueIdentifier>{dfc8d99d-b851-4cd8-98a9-2a36843b35e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{9f23b15b-a83f-4ae9-b56f-849abd2f6530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SPH">
+      <UniqueIdentifier>{ac47c077-5da4-4229-8dd2-3e8afb6d53f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SPH">
+      <UniqueIdentifier>{c1b86d4d-3990-4f1d-8e9a-de63576494f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{bb8a3fc1-a648-4235-818b-14a4c8f857e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bullet">
+      <UniqueIdentifier>{c3b7e88f-9594-4a29-9a12-c93fce1a4f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bullet">
+      <UniqueIdentifier>{bd217c25-6575-4673-a70e-72c883b3725f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MISC-R&amp;D">
+      <UniqueIdentifier>{e1bb200d-e9ec-4ac8-9d41-b609d97dae99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MISC-R&amp;D">
+      <UniqueIdentifier>{7df0d4b4-3714-4cca-8978-86868837ccdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{589f53b1-6272-4e07-92f6-18b97e2d533a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particles">
+      <UniqueIdentifier>{d1368eca-2692-4fab-bc78-95bb70f474df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particles">
+      <UniqueIdentifier>{f28151c9-f764-4923-9b31-4658c3577b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Blast">
+      <UniqueIdentifier>{aaa67dba-295d-429e-8398-77e329279c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Blast">
+      <UniqueIdentifier>{e6fc4934-2942-4ac4-a176-b63ac66f6cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Alembic">
+      <UniqueIdentifier>{bdecfaeb-26af-4c2d-8de1-e3fa06b67d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Alembic">
+      <UniqueIdentifier>{546df99a-b350-4d7f-931b-6cd2e1c45da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PBD Grains">
+      <UniqueIdentifier>{e8831b12-9653-4c5a-af79-77183215fef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PBD Grains">
+      <UniqueIdentifier>{eeb85ed9-6b8d-47a2-9be1-8ecc6c9a90ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeepFxCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCMeshVoxelizer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSimulationCoreGlobal.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCVoxel.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHComponents.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHConduit.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHGlobal.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHLiquid.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHRigid.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHParticleCache.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPointXForm.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSimulationEntity.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCCompactSearch.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHParticle.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCDivergenceFreeSPHSolver.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCBulletRigidObject.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCBulletSolver.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPointGrid.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCBulletRigidArray.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="btDbvtTester.cpp">
+      <Filter>Source Files\MISC-R&amp;D</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHShapeEmitter.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSimulationCache.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCParticleCacheLoader.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCParticleCache.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCFoamGenerator.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxFoamCompactSearch.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHMapChannel.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHViscosity.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHAbstractForce.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHVorticity.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHAdhesion.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNvBlastGlobal.cpp">
+      <Filter>Source Files\Blast</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNvBlastUtil.cpp">
+      <Filter>Source Files\Blast</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxVoronoiFracture.cpp">
+      <Filter>Source Files\Blast</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxVectorMeshSampler.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCUniformMeshSampler.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCExplodeView.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxNvBlastException.cpp">
+      <Filter>Source Files\Blast</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCBulletPointCache.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCAlembicObjectCache.cpp">
+      <Filter>Source Files\Alembic</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHBulletRigid.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCSPHBulletRigidHandle.cpp">
+      <Filter>Source Files\SPH</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCMeshVoxelisingFunctions.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPBDGrainGrains.cpp">
+      <Filter>Source Files\PBD Grains</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPBDGrainParticles.cpp">
+      <Filter>Source Files\PBD Grains</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCParticleCollide_btDvtCallback.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCParticleCollider.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPBDGrainSolver.cpp">
+      <Filter>Source Files\PBD Grains</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPBDGrainPenetrationConstraint.cpp">
+      <Filter>Source Files\PBD Grains</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPBDGrainFrictionConstraint.cpp">
+      <Filter>Source Files\PBD Grains</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPBDGrainDistanceConstraint.cpp">
+      <Filter>Source Files\PBD Grains</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPBDGrainConstraint.cpp">
+      <Filter>Source Files\PBD Grains</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPBDGrainCompactSearch.cpp">
+      <Filter>Source Files\PBD Grains</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPBDBGrainMapChannel.cpp">
+      <Filter>Source Files\PBD Grains</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCDefaultCollisionResponse.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCParticleRigid.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPBDGrainPointRigid.cpp">
+      <Filter>Source Files\PBD Grains</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCKillVolume.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCBulletGlueConstraint.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCBulletRigidHandle.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCBulletHandle.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCBulletCollisionActions.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCBulletPointToPointConstraint.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCBulletHingeConstraint.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCutoutFracture.cpp">
+      <Filter>Source Files\Blast</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxCPlane.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxSliceFracture.cpp">
+      <Filter>Source Files\Blast</Filter>
+    </ClCompile>
+    <ClCompile Include="DfxPlaneFracture.cpp">
+      <Filter>Source Files\Blast</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,48 @@
+<RCC>
+    <qresource prefix="/timeline_btn">
+      <file alias="play_btn">Resources/play.png</file>
+      <file alias="pause_btn">Resources/pause.png</file>
+      <file alias="next_frame_btn">Resources/next_frame.png</file>
+      <file alias="previous_frame_btn">Resources/previous_frame.png</file>
+      <file alias="next_key_btn">Resources/next_key.png</file>
+      <file alias="previous_key_btn">Resources/previous_key.png</file>
+      <file alias="first_frame_btn">Resources/first_frame.png</file>
+      <file alias="last_frame_btn">Resources/last_frame.png</file>
+    </qresource>
+  
+    <qresource prefix="/viewport_tb">
+      <file alias="translate">Resources/trans_icon.png</file>
+      <file alias="rotate">Resources/rot_icon.png</file>
+      <file alias="scale">Resources/scale_icon.png</file>
+      <file alias="plane">Resources/plane_icon.jpg</file>
+      <file alias="box">Resources/box_icon.jpg</file>
+      <file alias="sphere">Resources/sphere_icon.jpg</file>
+      <file alias="torus">Resources/torus_icon.jpg</file>
+    </qresource>
+  
+    <qresource prefix="/layers_tb">
+      <file alias="add_layer">Resources/add_layer.png</file>
+      <file alias="add_to_layer">Resources/add_to_layer.png</file>
+      <file alias="duplicate_layer">Resources/duplicate_layer.png</file>
+      <file alias="move_layer_up">Resources/move_layer_up.png</file>
+      <file alias="move_layer_down">Resources/move_layer_down.png</file>
+      <file alias="remove_layer">Resources/remove_layer.png</file>
+      <file alias="layer_icon">Resources/layer_icon.png</file>
+      <file alias="layer_generic_node_icon">Resources/layer_generic_node_icon.png</file>
+      <file alias="layer_viewitem_icon">Resources/layer_viewitem_icon.png</file>
+      <file alias="layer_lock_icon">Resources/layer_lock_icon.png</file>
+      <file alias="layer_link_icon">Resources/layer_link_icon.png</file>
+      <file alias="layer_visibility_icon">Resources/layer_visibility_icon.png</file>
+      <file alias="layer_nill_icon">Resources/layer_nill_icon.png</file>
+      <file alias="layer_off_icon">Resources/layer_off_icon.png</file>
+      <file alias="import_node_icon">Resources/import_node_icon.svg</file>
+      <file alias="import_node_icon_png">Resources/import_node_icon.png</file>
+      <file alias="home_level">Resources/home_level.png</file>
+      <file alias="previous_level">Resources/previous_level.png</file>
+    </qresource>
+
+    <qresource prefix="/misc">
+      <file alias="filepath">Resources/filepath_icon.png</file>
+      <file alias="about_banner">Resources/about_banner.png</file>
+    </qresource>
+</RCC>

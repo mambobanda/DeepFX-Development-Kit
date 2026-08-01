@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SgAsset.cpp" />
+    <ClCompile Include="SgAssetGroup.cpp" />
+    <ClCompile Include="SgAssetGroupHandler.cpp" />
+    <ClCompile Include="SgAssetHandler.cpp" />
+    <ClCompile Include="SgAssetManager.cpp" />
+    <ClCompile Include="SgAssetState.cpp" />
+    <ClCompile Include="SgAssociation.cpp" />
+    <ClCompile Include="SgAssociationHandler.cpp" />
+    <ClCompile Include="SgDescription.cpp" />
+    <ClCompile Include="SgDescriptionHandler.cpp" />
+    <ClCompile Include="SgGridAdapterInterface.cpp" />
+    <ClCompile Include="SgGridChannel.cpp" />
+    <ClCompile Include="SgGridNode.cpp" />
+    <ClCompile Include="SgNodeFilter.cpp" />
+    <ClCompile Include="SgGeoAdapterInterface.cpp" />
+    <ClCompile Include="SgGeoNode.cpp" />
+    <ClCompile Include="SgGroupNode.cpp" />
+    <ClCompile Include="SgNode.cpp" />
+    <ClCompile Include="SgNodeID.cpp" />
+    <ClCompile Include="SgNullNode.cpp" />
+    <ClCompile Include="SgPointcloud.cpp" />
+    <ClCompile Include="SgRenderDelegateNode.cpp" />
+    <ClCompile Include="SgRenderNode.cpp" />
+    <ClCompile Include="SgRootNode.cpp" />
+    <ClCompile Include="SgShape.cpp" />
+    <ClCompile Include="SgShapeBuffer.cpp" />
+    <ClCompile Include="SgShapeNode.cpp" />
+    <ClCompile Include="SgStageActorCollectionNode.cpp" />
+    <ClCompile Include="SgStageActorNode.cpp" />
+    <ClCompile Include="SgStageNode.cpp" />
+    <ClCompile Include="SgStagePropCollectionNode.cpp" />
+    <ClCompile Include="SgStagePropNode.cpp" />
+    <ClCompile Include="SgStateIO.cpp" />
+    <ClCompile Include="SgToolNode.cpp" />
+    <ClCompile Include="SgTransform.cpp" />
+    <ClCompile Include="SgTransformNode.cpp" />
+    <ClCompile Include="SgTransformOverride.cpp" />
+    <ClCompile Include="SgUtil.cpp" />
+    <ClCompile Include="SgVariants.cpp" />
+    <ClCompile Include="SgVariantsHandler.cpp" />
+    <ClCompile Include="SgVertexFilter.cpp" />
+    <ClCompile Include="SgWidget.cpp" />
+    <ClCompile Include="SgWidgetNode.cpp" />
+    <ClCompile Include="SgXForm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SgAsset.h" />
+    <ClInclude Include="SgAssetGroup.h" />
+    <ClInclude Include="SgAssetGroupHandler.h" />
+    <ClInclude Include="SgAssetHandler.h" />
+    <ClInclude Include="SgAssetManager.h" />
+    <ClInclude Include="SgAssetState.h" />
+    <ClInclude Include="SgAssociation.h" />
+    <ClInclude Include="SgAssociationHandler.h" />
+    <ClInclude Include="SgCommon.h" />
+    <ClInclude Include="SgDescription.h" />
+    <ClInclude Include="SgDescriptionHandler.h" />
+    <ClInclude Include="SgDynaMesh.h" />
+    <ClInclude Include="SgGridAdapterInterface.h" />
+    <ClInclude Include="SgGridChannel.h" />
+    <ClInclude Include="SgGridNode.h" />
+    <ClInclude Include="SgNodeFilter.h" />
+    <ClInclude Include="SgGeoAdapterInterface.h" />
+    <ClInclude Include="SgGeoNode.h" />
+    <ClInclude Include="SgGroupNode.h" />
+    <ClInclude Include="SgNode.h" />
+    <ClInclude Include="SgNodeID.h" />
+    <ClInclude Include="SgNodeType.h" />
+    <ClInclude Include="SgNullNode.h" />
+    <ClInclude Include="SgPointCloudNode.h" />
+    <ClInclude Include="SgRenderDelegateNode.h" />
+    <ClInclude Include="SgRenderNode.h" />
+    <ClInclude Include="SgRootNode.h" />
+    <ClInclude Include="SgRotationType.h" />
+    <ClInclude Include="SgShape.h" />
+    <ClInclude Include="SgShapeBuffer.h" />
+    <ClInclude Include="SgShapeNode.h" />
+    <ClInclude Include="SgStageActorCollectionNode.h" />
+    <ClInclude Include="SgStageActorNode.h" />
+    <ClInclude Include="SgStageCommon.h" />
+    <ClInclude Include="SgStageNode.h" />
+    <ClInclude Include="SgStagePropCollectionNode.h" />
+    <ClInclude Include="SgStagePropNode.h" />
+    <ClInclude Include="SgStateInfo.h" />
+    <ClInclude Include="SgStateIO.h" />
+    <ClInclude Include="SgToolNode.h" />
+    <ClInclude Include="SgTransform.h" />
+    <ClInclude Include="SgTransformNode.h" />
+    <ClInclude Include="SgTransformOverride.h" />
+    <ClInclude Include="SgTransformOverrideInfo.h" />
+    <ClInclude Include="SgUtil.h" />
+    <ClInclude Include="SgVariants.h" />
+    <ClInclude Include="SgVariantsHandler.h" />
+    <ClInclude Include="SgVertexFilter.h" />
+    <ClInclude Include="SgWidget.h" />
+    <ClInclude Include="SgWidgetNode.h" />
+    <ClInclude Include="SgXForm.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A1B390D0-570F-41E8-883A-3C22EB06EFC6}</ProjectGuid>
+    <RootNamespace>DeepSG</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DEEP FX SDK DEPENDS\RapidJSON\rapidjson_1.1.0\include;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepSimplex\DeepSimplex;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Fluent;C:\DEEP FX SDK DEPENDS\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalOptions>/Zc:twoPhase- %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DEEP FX SDK DEPENDS\sparsehash;C:\DEEP FX SDK DEPENDS\RapidJSON\rapidjson_1.1.0\include;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepSimplex\DeepSimplex;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Fluent;C:\DEEP FX SDK DEPENDS\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalOptions>/Zc:twoPhase- %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

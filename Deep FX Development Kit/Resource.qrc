@@ -1,0 +1,9 @@
+﻿<RCC>
+  <qresource prefix="/python_tb">
+    <file alias="execute">Resources/execute_python_icon.png</file>
+    <file alias="install">Resources/install_python_icon.png</file>
+    <file alias="save">Resources/save_script_icon.png</file>
+    <file alias="save_as">Resources/save_script_as_icon.png</file>
+    <file alias="load">Resources/load_script_icon.png</file>
+  </qresource>
+</RCC>

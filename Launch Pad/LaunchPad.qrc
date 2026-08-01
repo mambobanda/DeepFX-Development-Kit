@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/LaunchPad">
+        <file alias="file_icon">resources/file_icon.png</file>
+        <file alias="folder_icon">resources/folder_icon.png</file>
+        <file alias="root_icon">resources/root_icon.png</file>
+        <file alias="search_icon">resources/search_icon.png</file>
+    </qresource>
+</RCC>

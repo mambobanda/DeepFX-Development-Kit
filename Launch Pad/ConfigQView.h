@@ -1,0 +1,42 @@
+/*
+ * The Mailo Today Solutions Software License
+ *
+ * Copyright 2020 Mailo Today Solutions.
+ *
+ * No Permission is granted, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software.
+ */
+ /**
+	* @file ...h
+	*
+	* @author Mambo Banda
+	*
+	*/
+
+#pragma once
+
+#include <QWidget>
+#include <QBoxLayout>
+#include <QTextEdit>
+#include "QSourceHighliter.h"
+#include "ResourceManager.h"
+
+class ConfigQView : public QWidget {
+	Q_OBJECT
+private:
+	QBoxLayout *layout;
+	QTextEdit *editor;
+	QSourceHighlite::QSourceHighliter *highliter;
+public:
+
+	ConfigQView();
+	virtual ~ConfigQView();
+
+public slots:
+	void textUpdated();
+	void updateText();
+
+};

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4205430C-0B06-40B1-AD06-1992DFACFAD1}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>dfx_studio</TargetName>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_DEBUG;PYTHON_DEBUG;UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_OPENGLEXTENSIONS_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\blast\tools\common;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\authoring\include;C:\DEEP FX SDK DEPENDS\blast\sdk\toolkit\include;C:\DEEP FX SDK DEPENDS\blast\sdk\common;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\common\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\common;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\cooking;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\extensions;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\geometry;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\gpu;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\deformable;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\particles;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\characterkinematic;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\characterdynamic;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\vehicle;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\pvd;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\task;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\filebuf;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\foundation;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\foundation\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\filebuf\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\fastxml\include;C:\NVIDIA\packman-repo\tclap\1.2.1\include;C:\NVIDIA\packman-repo\tclap\1.2.1\include\tclap;C:\NVIDIA\packman-repo\tinyObjLoader\1.0;C:\NVIDIA\packman-repo\FBXSDK\2017.0.1\include;C:\NVIDIA\packman-repo\FBXSDK\2017.0.1\include\fbxsdk;C:\DEEP FX SDK DEPENDS\blast\sdk\lowlevel\include;C:\DEEP FX SDK DEPENDS\blast\sdk\globals\include;C:\DEEP FX SDK DEPENDS\blast\sdk\globals\source;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\source;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\source\DTO;C:\NVIDIA\packman-repo\chk\CapnProto\0.6.1.4\src;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\physx\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\profiler\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\shaders\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\stress\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\exporter\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\authoringCommon\include;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep FX Studio;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\;C:\DEEP FX SDK DEPENDS\MathGeoLib\src;C:\DEEP FX SDK DEPENDS\partio\src\lib;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\bullet3\src;C:\DEEP FX SDK DEPENDS\rapidjson\include;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep Fx Core;C:\DEEP FX SDK DEPENDS\glm;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep FX Development Kit;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\x64\Debug;C:\DEEP FX SDK DEPENDS\RPR_SDK\libWin64;c:\Python36\libs;C:\DEEP FX SDK DEPENDS\generator\lib\Debug;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\openexr\IlmBase\lib\Debug;C:\DEEP FX SDK DEPENDS\Alembic\lib\debug\;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake;C:\DEEP FX SDK DEPENDS\MathGeoLib\lib\Debug;C:\DEEP FX SDK DEPENDS\assimp\lib\Debug;C:\DEEP FX SDK DEPENDS\partio\lib\Debug;C:\DEEP FX SDK DEPENDS\bullet3\lib\Debug;C:\assimp_2018\lib\Debug;$(QTDIR)\lib</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ProRenderGLTF.lib;RadeonProRender64.lib;RprLoadStore64.lib;RprSupport64.lib;Tahoe64.lib;wbemuuid.lib;comsuppw.lib;Qt5Multimediad.lib;Qt5OpenGLd.lib;Qt5Networkd.lib;python36_d.lib;generator.lib;alembic.lib;Imath-2_3_d.lib;IlmThread-2_3_d.lib;Iex-2_3_d.lib;IexMath-2_3_d.lib;Half-2_3_d.lib;NvBlastExtPhysX_x64.lib;assimp-vc140-md.lib;dfxstudio.lib;MathGeoLib.lib;partio.lib;Bullet3Common_Debug.lib;Bullet3Collision_Debug.lib;BulletCollision_Debug.lib;BulletDynamics_Debug.lib;BulletSoftBody_Debug.lib;LinearMath_Debug.lib;HACD_Debug.lib;GIMPACTUtils_Debug.lib;ConvexDecomposition_Debug.lib;deepfxlib.lib;deepfxcore.lib;qtmaind.lib;Qt5Cored.lib;Qt5Guid.lib;opengl32.lib;glu32.lib;Qt5OpenGLExtensionsd.lib;Qt5Svgd.lib;Qt5Widgetsd.lib;Qt5Xmld.lib;Qt5Helpd.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtSerializationDEBUG_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtTkSerializationDEBUG_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtPxSerializationDEBUG_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtPhysXDEBUG_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtExporterDEBUG_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtAuthoringDEBUG_x64.lib;C:\NVIDIA\packman-repo\FBXSDK\2017.0.1\lib\vs2015\x64\debug\libfbxsdk-md.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtShadersDEBUG_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtStressDEBUG_x64.lib;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\Lib\PhysX3ExtensionsDEBUG_x64.lib;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\Lib\PxFoundationDEBUG_x64.lib;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\Lib\PhysX3DEBUG_x64.lib;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\Lib\PhysX3CookingDEBUG_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastTkDEBUG_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastDEBUG_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastGlobalsDEBUG_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath>C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\blast\tools\common;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\authoring\include;C:\DEEP FX SDK DEPENDS\blast\sdk\toolkit\include;C:\DEEP FX SDK DEPENDS\blast\sdk\common;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\common\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\common;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\cooking;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\extensions;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\geometry;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\gpu;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\deformable;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\particles;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\characterkinematic;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\characterdynamic;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\vehicle;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\pvd;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\task;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\filebuf;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\foundation;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\foundation\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\filebuf\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\fastxml\include;C:\NVIDIA\packman-repo\tclap\1.2.1\include;C:\NVIDIA\packman-repo\tclap\1.2.1\include\tclap;C:\NVIDIA\packman-repo\tinyObjLoader\1.0;C:\NVIDIA\packman-repo\FBXSDK\2017.0.1\include;C:\NVIDIA\packman-repo\FBXSDK\2017.0.1\include\fbxsdk;C:\DEEP FX SDK DEPENDS\blast\sdk\lowlevel\include;C:\DEEP FX SDK DEPENDS\blast\sdk\globals\include;C:\DEEP FX SDK DEPENDS\blast\sdk\globals\source;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\source;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\source\DTO;C:\NVIDIA\packman-repo\chk\CapnProto\0.6.1.4\src;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\physx\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\profiler\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\shaders\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\stress\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\exporter\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\authoringCommon\include;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep FX Studio;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\;C:\DEEP FX SDK DEPENDS\MathGeoLib\src;C:\DEEP FX SDK DEPENDS\partio\src\lib;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\bullet3\src;C:\DEEP FX SDK DEPENDS\rapidjson\include;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep Fx Core;C:\DEEP FX SDK DEPENDS\glm;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep FX Development Kit;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>_DEBUG;PYTHON_DEBUG;UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_OPENGLEXTENSIONS_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_OPENGLEXTENSIONS_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;ZLIB_WINAPI;BOOST_ALL_NO_LIB;NOMINMAX;OPENVDB_ABI_VERSION_NUMBER=4;OPENVDB_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\openexr\IlmBase\include\openexr;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\openexr\IlmBase\include;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\tbb2017_source\include;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\openvdb;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\zlib-1.2.11;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\c-blosc\blosc;C:\DEEP FX SDK DEPENDS\boost;C:\DEEP FX SDK DEPENDS\eigen;C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\blast\tools\common;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\authoring\include;C:\DEEP FX SDK DEPENDS\blast\sdk\toolkit\include;C:\DEEP FX SDK DEPENDS\blast\sdk\common;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\common\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\common;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\cooking;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\extensions;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\geometry;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\gpu;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\deformable;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\particles;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\characterkinematic;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\characterdynamic;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\vehicle;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\pvd;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\task;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\filebuf;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\foundation;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\foundation\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\filebuf\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\fastxml\include;C:\NVIDIA\packman-repo\tclap\1.2.1\include;C:\NVIDIA\packman-repo\tclap\1.2.1\include\tclap;C:\NVIDIA\packman-repo\tinyObjLoader\1.0;C:\NVIDIA\packman-repo\FBXSDK\2017.0.1\include;C:\NVIDIA\packman-repo\FBXSDK\2017.0.1\include\fbxsdk;C:\DEEP FX SDK DEPENDS\blast\sdk\lowlevel\include;C:\DEEP FX SDK DEPENDS\blast\sdk\globals\include;C:\DEEP FX SDK DEPENDS\blast\sdk\globals\source;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\source;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\source\DTO;C:\NVIDIA\packman-repo\chk\CapnProto\0.6.1.4\src;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\physx\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\profiler\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\shaders\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\stress\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\exporter\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\authoringCommon\include;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep FX Studio;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\MathGeoLib\src;C:\DEEP FX SDK DEPENDS\partio\src\lib;C:\DEEP FX SDK DEPENDS\bullet3\src;C:\DEEP FX SDK DEPENDS\rapidjson\include;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep Fx Core;C:\DEEP FX SDK DEPENDS\glm;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep FX Development Kit;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <OpenMPSupport>true</OpenMPSupport>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\dfx_studio.exe</OutputFile>
+      <AdditionalLibraryDirectories>C:\DEEP FX SDK DEPENDS\assimp\lib\Release;C:\crypocpp\cryptopp-CRYPTOPP.5.6.5\v2017;C:\Users\mambo\Documents\Visual Studio 2017\Projects\License System\x64\Release;c:\Python36\libs;C:\DEEP FX SDK DEPENDS\generator\lib\Release;C:\DEEP FX SDK DEPENDS\Alembic\lib\Release;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\zlib-1.2.11\lib\Release;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\openexr\IlmBase\lib\Release;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\openvdb\lib\Release;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\c-blosc\lib\Release;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\tbb2017_source\lib\Release;C:\DEEP FX SDK DEPENDS\MathGeoLib\lib\Release;C:\DEEP FX SDK DEPENDS\partio\lib\Release;C:\DEEP FX SDK DEPENDS\bullet3\lib\Release;C:\assimp_2018\lib\Release;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\x64\Release;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>Shlwapi.lib;LicenceVerifier.lib;cryptlib.lib;wbemuuid.lib;comsuppw.lib;python36.lib;generator.lib;alembic.lib;Imath-2_3.lib;IlmThread-2_3.lib;Iex-2_3.lib;IexMath-2_3.lib;half.lib;libblosc.lib;openvdb.lib;zlibstatic.lib;assimp-vc140-md.lib;dfxstudio.lib;MathGeoLib.lib;deepfx_partio.lib;Bullet3Common.lib;Bullet3Collision.lib;BulletCollision.lib;BulletDynamics.lib;BulletSoftBody.lib;LinearMath.lib;HACD.lib;GIMPACTUtils.lib;ConvexDecomposition.lib;deepfxlib.lib;deepfxcore.lib;Qt5Svg.lib;qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5Xml.lib;Qt5OpenGL.lib;Qt5Network.lib;Qt5Multimedia.lib;Qt5Help.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtSerialization_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtTkSerialization_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtPxSerialization_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtPhysX_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtExporter_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtAuthoring_x64.lib;C:\NVIDIA\packman-repo\FBXSDK\2017.0.1\lib\vs2015\x64\debug\libfbxsdk-md.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtShaders_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastExtStress_x64.lib;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\Lib\PhysX3Extensions_x64.lib;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\Lib\PxFoundation_x64.lib;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\Lib\PhysX3_x64.lib;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\Lib\PhysX3Cooking_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastTk_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlast_x64.lib;C:\DEEP FX SDK DEPENDS\blast\lib\vc15win64-cmake\NvBlastGlobals_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <PerUserRedirection>true</PerUserRedirection>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+    </Link>
+    <QtMoc>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath>C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\openexr\IlmBase\include\openexr;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\openexr\IlmBase\include;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\tbb2017_source\include;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\openvdb;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\zlib-1.2.11;C:\DEEP FX SDK DEPENDS\OpenVDB_5.2\c-blosc\blosc;C:\DEEP FX SDK DEPENDS\boost;C:\DEEP FX SDK DEPENDS\eigen;C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\blast\tools\common;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\authoring\include;C:\DEEP FX SDK DEPENDS\blast\sdk\toolkit\include;C:\DEEP FX SDK DEPENDS\blast\sdk\common;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\common\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\common;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\cooking;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\extensions;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\geometry;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\gpu;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\deformable;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\particles;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\characterkinematic;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\characterdynamic;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PhysX_3.4\Include\vehicle;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\pvd;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\task;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\filebuf;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\include\foundation;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\foundation\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\filebuf\include;C:\NVIDIA\packman-repo\chk\PhysX-win.x86_64.vc150\3.4.24990349\PxShared\src\fastxml\include;C:\NVIDIA\packman-repo\tclap\1.2.1\include;C:\NVIDIA\packman-repo\tclap\1.2.1\include\tclap;C:\NVIDIA\packman-repo\tinyObjLoader\1.0;C:\NVIDIA\packman-repo\FBXSDK\2017.0.1\include;C:\NVIDIA\packman-repo\FBXSDK\2017.0.1\include\fbxsdk;C:\DEEP FX SDK DEPENDS\blast\sdk\lowlevel\include;C:\DEEP FX SDK DEPENDS\blast\sdk\globals\include;C:\DEEP FX SDK DEPENDS\blast\sdk\globals\source;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\source;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\serialization\source\DTO;C:\NVIDIA\packman-repo\chk\CapnProto\0.6.1.4\src;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\physx\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\profiler\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\shaders\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\stress\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\exporter\include;C:\DEEP FX SDK DEPENDS\blast\sdk\extensions\authoringCommon\include;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep FX Studio;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\MathGeoLib\src;C:\DEEP FX SDK DEPENDS\partio\src\lib;C:\DEEP FX SDK DEPENDS\bullet3\src;C:\DEEP FX SDK DEPENDS\rapidjson\include;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep Fx Core;C:\DEEP FX SDK DEPENDS\glm;C:\Users\mambo\Documents\Visual Studio 2017\Projects\DeepFX Development Kit\Deep FX Development Kit;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_OPENGL_LIB;QT_OPENGLEXTENSIONS_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;ZLIB_WINAPI;BOOST_ALL_NO_LIB;NOMINMAX;OPENVDB_ABI_VERSION_NUMBER=4;OPENVDB_STATICLIB;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resource.qrc">
+      <SubType>Designer</SubType>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="mainicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_x64="Qt 5.10.0" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{DB6157C0-23D8-4C4A-A603-53DB9F76FF9F}</ProjectGuid>
+    <RootNamespace>Fluent</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>fluent</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>fluent</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DEEP FX SDK DEPENDS\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>FL_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DEEP FX SDK DEPENDS\glm;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="FlAny.cpp" />
+    <ClCompile Include="FlAnyHelpers.cpp" />
+    <ClCompile Include="FlAnyMap.cpp" />
+    <ClCompile Include="FlBinding.cpp" />
+    <ClCompile Include="FlDataObject.cpp" />
+    <ClCompile Include="FlDataObjectProperty.cpp" />
+    <ClCompile Include="FlDispatcher.cpp" />
+    <ClCompile Include="FlDispatchManager.cpp" />
+    <ClCompile Include="FlFlow.cpp" />
+    <ClCompile Include="FlInterpreter.cpp" />
+    <ClCompile Include="FlInterpreterScope.cpp" />
+    <ClCompile Include="FlModelDB.cpp" />
+    <ClCompile Include="FlObserver.cpp" />
+    <ClCompile Include="FlSpace.cpp" />
+    <ClCompile Include="FlSpaceInterface.cpp" />
+    <ClCompile Include="FlSpaceObserver.cpp" />
+    <ClCompile Include="FlUtil.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlAnyHelpers.h" />
+    <ClInclude Include="FlAnyMap.h" />
+    <ClInclude Include="FlDataObjectProperty.h" />
+    <ClInclude Include="FlAny.h" />
+    <ClInclude Include="FlBinding.h" />
+    <ClInclude Include="FlCommon.h" />
+    <ClInclude Include="FlDataObject.h" />
+    <ClInclude Include="FlDirectedAcyclicGraph.h" />
+    <ClInclude Include="FlDispatcher.h" />
+    <ClInclude Include="FlDispatchManager.h" />
+    <ClInclude Include="FlFlow.h" />
+    <ClInclude Include="FlInterpolation.h" />
+    <ClInclude Include="FlInterpreter.h" />
+    <ClInclude Include="FlInterpreterScope.h" />
+    <ClInclude Include="FlIterationConstructType.h" />
+    <ClInclude Include="FlLink.h" />
+    <ClInclude Include="FlModel.h" />
+    <ClInclude Include="FlModelDB.h" />
+    <ClInclude Include="FlObserver.h" />
+    <ClInclude Include="FlSpace.h" />
+    <ClInclude Include="FlSpaceEventInfo.h" />
+    <ClInclude Include="FlSpaceEventType.h" />
+    <ClInclude Include="FlSpaceObserver.h" />
+    <ClInclude Include="Fluent.h" />
+    <ClInclude Include="FlUtil.h" />
+    <ClInclude Include="FlSpaceInterface.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

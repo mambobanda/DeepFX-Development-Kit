@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{30DCDAA2-A42B-4E64-8966-B0088F5722C9}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_OPENGL_LIB;DEEPFXDEVELOPMENTKIT_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\tinyobjloader;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\glm;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Release|x64'">None</DebugInformationFormat>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWChar_tAsBuiltInType>
+      <OpenMPSupport Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</OpenMPSupport>
+      <FavorSizeOrSpeed Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Windows</SubSystem>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)\$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateDebugInformation>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5OpenGL.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(FullPath)</InputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">output</DynamicSource>
+      <ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\tinyobjloader;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\glm;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_OPENGL_LIB;DEEPFXDEVELOPMENTKIT_LIB;%(PreprocessorDefinitions)</Define>
+      <QTDIR Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)</QTDIR>
+    </QtMoc>
+    <QtRcc>
+      <ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>deepfxlib</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>deepfxlib</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_OPENGL_LIB;BUILD_STATIC;DEEPFXDEVELOPMENTKIT_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\tinyobjloader;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\glm;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Guid.lib;Qt5OpenGLd.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath>C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\tinyobjloader;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\glm;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>_DEBUG;UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_OPENGL_LIB;BUILD_STATIC;DEEPFXDEVELOPMENTKIT_LIB;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Dfx3dMeshData.cpp" />
+    <ClCompile Include="DfxAbstractCommand.cpp" />
+    <ClCompile Include="DfxAbstractGizmo.cpp" />
+    <ClCompile Include="DfxAbstractViewport.cpp" />
+    <ClCompile Include="DfxAny.cpp" />
+    <ClCompile Include="DfxBounds.cpp" />
+    <ClCompile Include="DfxCamera.cpp" />
+    <ClCompile Include="DfxColorCounter.cpp" />
+    <ClCompile Include="DfxColorField.cpp" />
+    <ClCompile Include="DfxColorID.cpp" />
+    <ClCompile Include="DfxCommandDatabase.cpp" />
+    <ClCompile Include="DfxConsole.cpp" />
+    <ClCompile Include="DfxConsoleBuffer.cpp" />
+    <ClCompile Include="DfxCoreApplication.cpp" />
+    <ClCompile Include="DfxEntityUtil.cpp" />
+    <ClCompile Include="DfxEnum.cpp" />
+    <ClCompile Include="DfxGenericPythonEntity.cpp" />
+    <ClCompile Include="DfxGizmoEvent.cpp" />
+    <ClCompile Include="DfxGizmoUtil.cpp" />
+    <ClCompile Include="DfxGlobal.cpp" />
+    <ClCompile Include="DfxIntegerTuple.cpp" />
+    <ClCompile Include="DfxIOCommands.cpp" />
+    <ClCompile Include="DfxItem.cpp" />
+    <ClCompile Include="DfxItemCommands.cpp" />
+    <ClCompile Include="DfxKeyLog.cpp" />
+    <ClCompile Include="DfxLight.cpp" />
+    <ClCompile Include="DfxMapUniformDisplacement.cpp" />
+    <ClCompile Include="DfxMapUniformDisplacementProxy.cpp" />
+    <ClCompile Include="DfxMeshXForm.cpp" />
+    <ClCompile Include="DfxObjectDisplacementMap.cpp" />
+    <ClCompile Include="DfxObjectItem.cpp" />
+    <ClCompile Include="DfxObjectItemCopy.cpp" />
+    <ClCompile Include="DfxObjectItemMerge.cpp" />
+    <ClCompile Include="DfxObjectLoaderService.cpp" />
+    <ClCompile Include="DfxObjectViewer.cpp" />
+    <ClCompile Include="DfxObjLoaderPlugin.cpp" />
+    <ClCompile Include="DfxOpenGLGlobal.cpp" />
+    <ClCompile Include="DfxPlugin.cpp" />
+    <ClCompile Include="DfxPluginDatabase.cpp" />
+    <ClCompile Include="DfxPointItem.cpp" />
+    <ClCompile Include="DfxPythonGlobal.cpp" />
+    <ClCompile Include="DfxQPythonSyntaxHighlighter.cpp" />
+    <ClCompile Include="DfxRay.cpp" />
+    <ClCompile Include="DfxRegReader.cpp" />
+    <ClCompile Include="DfxRoot.cpp" />
+    <ClCompile Include="DfxRotateGizmo.cpp" />
+    <ClCompile Include="DfxRotation.cpp" />
+    <ClCompile Include="DfxScaleGizmo.cpp" />
+    <ClCompile Include="DfxScene.cpp" />
+    <ClCompile Include="DfxSceneActionListener.cpp" />
+    <ClCompile Include="DfxSceneCommands.cpp" />
+    <ClCompile Include="DfxSceneEvent.cpp" />
+    <ClCompile Include="DfxScenePropRegistry.cpp" />
+    <ClCompile Include="DfxServiceEntry.cpp" />
+    <ClCompile Include="DfxServiceRegistry.cpp" />
+    <ClCompile Include="DfxShorcutAction.cpp" />
+    <ClCompile Include="DfxShortcutManager.cpp" />
+    <ClCompile Include="DfxSpotterItem.cpp" />
+    <ClCompile Include="DfxString.cpp" />
+    <ClCompile Include="DfxTinyPythonIDE.cpp" />
+    <ClCompile Include="DfxTinyPythonTextEditor.cpp" />
+    <ClCompile Include="DfxTranslateGizmo.cpp" />
+    <ClCompile Include="DfxUtility.cpp" />
+    <ClCompile Include="DfxViewItem.cpp" />
+    <ClCompile Include="DfxViewportMenus.cpp" />
+    <ClCompile Include="DfxViewportVersion01.cpp" />
+    <ClCompile Include="DfxEntity.cpp" />
+    <ClCompile Include="DfxEntityBasicPropertyTypes.cpp" />
+    <ClCompile Include="DfxEntityDataEvent.cpp" />
+    <ClCompile Include="DfxEntityDataInstance.cpp" />
+    <ClCompile Include="DfxEntityDataListener.cpp" />
+    <ClCompile Include="DfxEntityDB.cpp" />
+    <ClCompile Include="DfxEntityDefinition.cpp" />
+    <ClCompile Include="DfxEntityProperty.cpp" />
+    <ClCompile Include="DfxEntityPropertyException.cpp" />
+    <ClCompile Include="DfxEntityPropertyType.cpp" />
+    <ClCompile Include="DfxObjectItemInfo.cpp" />
+    <ClCompile Include="EulerAngles.cpp" />
+    <ClCompile Include="IOUtilities.cpp" />
+    <ClCompile Include="Quaternion_Util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deepfxdevelopmentkit_global.h" />
+    <ClInclude Include="Dfx3dMeshData.h" />
+    <ClInclude Include="DfxAbstractCommand.h" />
+    <ClInclude Include="DfxAbstractGizmo.h" />
+    <ClInclude Include="DfxAbstractViewport.h" />
+    <ClInclude Include="DfxAny.h" />
+    <ClInclude Include="DfxArray.h" />
+    <ClInclude Include="DfxBounds.h" />
+    <ClInclude Include="DfxCamera.h" />
+    <ClInclude Include="DfxCmdArguments.h" />
+    <ClInclude Include="DfxColorCounter.h" />
+    <ClInclude Include="DfxColorField.h" />
+    <ClInclude Include="DfxColorID.h" />
+    <ClInclude Include="DfxCommandDatabase.h" />
+    <ClInclude Include="DfxGenericPythonEntityBindings.h" />
+    <ClInclude Include="DfxGlobalPythonBindings.h" />
+    <ClInclude Include="DfxLight.h" />
+    <ClInclude Include="DfxMeshXForm.h" />
+    <ClInclude Include="DfxObjectItemMerge.h" />
+    <ClInclude Include="DfxProjectionType.h" />
+    <ClInclude Include="DfxPythonEntity.h" />
+    <ClInclude Include="DfxPythonEntityTypes.h" />
+    <ClInclude Include="DfxPythonGlobal.h" />
+    <ClInclude Include="DfxRegReader.h" />
+    <ClInclude Include="DfxRenderInterface.h" />
+    <ClInclude Include="DfxRotation.h" />
+    <ClInclude Include="DfxScenePropRegistry.h" />
+    <ClInclude Include="DfxShortcutAction.h" />
+    <ClInclude Include="DfxShortcutManager.h" />
+    <ClInclude Include="DfxIntegerTuple.h" />
+    <ClInclude Include="Quaternion_Util.h" />
+    <ClInclude Include="QuatTypes.h" />
+    <QtMoc Include="DfxQPythonSyntaxHighlighter.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\tinyobjloader;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\glm;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\tinyobjloader;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\glm;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL</IncludePath>
+    </QtMoc>
+    <QtMoc Include="DfxTinyPythonIDE.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\tinyobjloader;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\glm;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\tinyobjloader;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\glm;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL</IncludePath>
+    </QtMoc>
+    <QtMoc Include="DfxTinyPythonTextEditor.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\tinyobjloader;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\glm;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Python36\include;C:\DEEP FX SDK DEPENDS\pybind11\include;C:\DEEP FX SDK DEPENDS\tinyobjloader;C:\DEEP FX SDK DEPENDS\assimp\include;C:\DEEP FX SDK DEPENDS\glm;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL</IncludePath>
+    </QtMoc>
+    <ClInclude Include="DfxUtility.h" />
+    <ClInclude Include="DfxGenericPythonEntity.h" />
+    <ClInclude Include="EulerAngles.h" />
+    <ClInclude Include="IOUtilities.h" />
+    <QtMoc Include="DfxConsole.h" />
+    <QtMoc Include="DfxConsoleBuffer.h" />
+    <QtMoc Include="DfxCoreApplication.h" />
+    <ClInclude Include="DfxConcurrentVector.h" />
+    <ClInclude Include="DfxDarkOrangeStyle.h" />
+    <ClInclude Include="DfxDefaultGlobalIDs.h" />
+    <ClInclude Include="DfxEntity.h" />
+    <ClInclude Include="DfxEntityBasicPropertyTypes.h" />
+    <ClInclude Include="DfxEntityCommon.h" />
+    <ClInclude Include="DfxEntityDataEvent.h" />
+    <ClInclude Include="DfxEntityDataInstance.h" />
+    <ClInclude Include="DfxEntityDataListener.h" />
+    <ClInclude Include="DfxEntityDB.h" />
+    <ClInclude Include="DfxEntityDefinition.h" />
+    <ClInclude Include="DfxEntityExceptions.h" />
+    <ClInclude Include="DfxEntityProperty.h" />
+    <ClInclude Include="DfxEntityPropertySpec.h" />
+    <ClInclude Include="DfxEntityPropertyType.h" />
+    <ClInclude Include="DfxEntityUtil.h" />
+    <ClInclude Include="DfxEnum.h" />
+    <ClInclude Include="DfxGizmoEvent.h" />
+    <ClInclude Include="DfxGizmoUtil.h" />
+    <ClInclude Include="DfxGlobal.h" />
+    <ClInclude Include="DfxIOCommands.h" />
+    <ClInclude Include="DfxItem.h" />
+    <ClInclude Include="DfxItemCommands.h" />
+    <ClInclude Include="DfxKeyLog.h" />
+    <ClInclude Include="DfxLinkedList.h" />
+    <ClInclude Include="DfxMapUniformDisplacement.h" />
+    <ClInclude Include="DfxMapUniformDisplacementProxy.h" />
+    <ClInclude Include="DfxObjectDisplacementMap.h" />
+    <ClInclude Include="DfxObjectItem.h" />
+    <ClInclude Include="DfxObjectItemCopy.h" />
+    <ClInclude Include="DfxObjectItemInfo.h" />
+    <ClInclude Include="DfxObjectViewer.h" />
+    <ClInclude Include="DfxOpenGLGlobal.h" />
+    <ClInclude Include="DfxPlugin.h" />
+    <ClInclude Include="DfxPluginCommon.h" />
+    <ClInclude Include="DfxPluginDatabase.h" />
+    <ClInclude Include="DfxPointItem.h" />
+    <ClInclude Include="DfxRay.h" />
+    <ClInclude Include="DfxRoot.h" />
+    <ClInclude Include="DfxRotateGizmo.h" />
+    <ClInclude Include="DfxScaleGizmo.h" />
+    <ClInclude Include="DfxScene.h" />
+    <ClInclude Include="DfxSceneActionInfo.h" />
+    <ClInclude Include="DfxSceneActionListener.h" />
+    <ClInclude Include="DfxSceneCommands.h" />
+    <ClInclude Include="DfxSceneEvent.h" />
+    <ClInclude Include="DfxServiceClass.h" />
+    <ClInclude Include="DfxServiceClassDefinition.h" />
+    <ClInclude Include="DfxServiceEntry.h" />
+    <ClInclude Include="DfxServiceRegistry.h" />
+    <ClInclude Include="DfxSpotterItem.h" />
+    <ClInclude Include="DfxString.h" />
+    <ClInclude Include="DfxTraitUID.h" />
+    <ClInclude Include="DfxTranslateGizmo.h" />
+    <ClInclude Include="DfxViewItem.h" />
+    <QtMoc Include="DfxViewportMenus.h" />
+    <QtMoc Include="DfxViewportVersion01.h" />
+    <ClInclude Include="Headers\DfxDarkOrangeStyle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Reserved Global IDs.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resource.qrc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_x64="Qt 5.10.0" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
